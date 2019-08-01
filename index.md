@@ -5,8 +5,6 @@ title: Accueil
 # Concernant ce blog... 
 <p><span style="color:#E5E5E5">2019-08-01</span></p> 
 
-Ce blog existe avant tout pour l'épreuve de PPE du BTS SIO 2020. Je vais y répertorier toutes les choses que j'ai pu faire en deux ans chez IBM. J'y posterai aussi mes travaux personnels, certains guides et articles en rapport avec l'informatique.
-
 &nbsp;
 ### ▪ Du choix d'utiliser Github...
 
