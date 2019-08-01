@@ -4,7 +4,7 @@ title: Accueil
 ---
 # Concernant ce blog... 
 <p><span style="color:#E5E5E5">2019-08-01</span></p> 
-
+---
 ### ▪ Du choix d'utiliser Github...
 
 Depuis que Github a été racheté par Microsoft, je cherche une autre plateforme similaire mais qui n'appartient pas à un méchant __GAFAM__. Il y a bien __Gitlab__, mais finalement, il heberge ses serveurs chez Microsoft Azur et Google Cloud... Donc pour faire ça, autant rester sur Github.
