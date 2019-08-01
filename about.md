@@ -1,9 +1,9 @@
 ---
 layout: page
-title: I - C1.3.1.1 Mettre en place l’environnement de test du service
+title: CV
 permalink: /CV/
 ---
-
+I - C1.3.1.1 Mettre en place l’environnement de test du service
 ----
 &nbsp;
 La partie Gnuplot étant terminée, nous allons passer à la demande concernant les FRAMES et les LPARS. L'idée sera de proposer :
