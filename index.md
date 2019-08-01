@@ -4,7 +4,6 @@ title: Accueil
 ---
 # Concernant ce blog... 
 <p><span style="color:#E5E5E5">2019-08-01</span></p> 
-
 &nbsp;
 ### ▪ Du choix d'utiliser Github...
 
