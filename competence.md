@@ -1,6 +1,6 @@
 ---
 layout: page
-title: skill
+title: Compétences
 permalink: /Compétences/
 ---
 
