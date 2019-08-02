@@ -14,6 +14,12 @@ permalink: /Compétences/
 
 &nbsp;
 
+#### __P2 - Fourniture de services__
+
+| Activité | Compétences | Réalisation |
+
+&nbsp;
+
 #### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
 
 | Activité | Compétences | Réalisation |
