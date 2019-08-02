@@ -29,8 +29,6 @@ J'avais besoin d'un soft me permettant du créer rapidement un petit site web, g
 &nbsp;
 ### ▪ Concernant ce template...
 
-Ce template est un fork de [ce projet](https://github.com/poole/lanyon). 
-Le créateur est __Mark Otto__ ( Twitter : [@mdo](https://twitter.com/mdo) - Github : [mdo](https://github.com/mdo)). 
-J'y apporterai quelques modifications.
+Ce template est un fork de [ce projet](https://github.com/jekyll/minima). J'y apporte seulement quelques modifications.
 
-Projet distribué sous la licence __Open sourced under the [MIT license](https://github.com/poole/lanyon/blob/master/LICENSE.md)__.
+Projet distribué sous la licence __Open sourced under the [MIT license](https://github.com/jekyll/minima/blob/master/LICENSE.txt)__.
