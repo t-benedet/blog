@@ -24,3 +24,23 @@ La première chose à faire est de se toxer en executant un petit script :
 ```
 ./connect_GSNI.sh
 ```
+<br>
+<br>
+### __Première étape :__ Générer une clé RSA sous le serveur u103
+----
+Nous allons pouvoir nous connecter à notre serveur u103 :
+```
+toxoscks ssh tbenedet@15.1.24.35
+```
+
+Une fois cela fait, nous tapons la commande :
+```
+ssh-keygen -t rsa
+```
+
+Cette commande va générer automatiquement une clé privée et une clé publique en créant dans le repertoire où vous vous trouvez ( /home/tbenedet/ pour moi ) , un sous-repertoire caché /.ssh. Si nous nous y déplaçons, nous pouvons constater la création des deux clés : id_rsa et id_rsa_pub
+
+![image_1](https://image.noelshack.com/fichiers/2019/29/4/1563438564-3.png "image1")
+
+
+La création de nos clés maintenant terminée, nous allons partager notre clé publique sur les serveurs u104 et OpenSuse.
