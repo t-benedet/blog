@@ -7,12 +7,12 @@ title: Accueil
 ---
 
 &nbsp;
-### ▪ Du choix d'utiliser Github...
+### __▪ Du choix d'utiliser Github...__
 
 Depuis que Github a été racheté par Microsoft, je cherche une autre plateforme similaire mais qui n'appartient pas à un méchant __GAFAM__. Il y a bien __Gitlab__, mais finalement, il heberge ses serveurs chez Microsoft Azur et Google Cloud... Donc pour faire ça, autant rester sur Github.
 
 &nbsp;
-### ▪ Du choix d'utiliser le Markdown...
+### __▪ Du choix d'utiliser le Markdown...__
 
 Voici les raisons pour laquelle j'utilise le Markdown :
 
@@ -22,12 +22,12 @@ Pour les personnes qui ne connaissent pas la tragique histoire d'__Aaron Swartz_
 - La simplicité.
 
 &nbsp;
-### ▪ Du choix d'utiliser Jekyll...
+### __▪ Du choix d'utiliser Jekyll...__
 
 J'avais besoin d'un soft me permettant du créer rapidement un petit site web, gratuitement, simplement et compatible avec le __markdown__. Plusieurs options existent comme __Hugo__, ou encore __Pandoc__, mais mon choix s'est porté sur [Jekyll](https://jekyllrb.com/).
 
 &nbsp;
-### ▪ Concernant ce template...
+### __▪ Concernant ce template...__
 
 Ce template est un fork de [ce projet](https://github.com/jekyll/minima). J'y apporte seulement quelques modifications.
 
