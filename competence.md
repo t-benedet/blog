@@ -4,9 +4,9 @@ title: Compétences
 permalink: /Compétences/
 ---
 
-#### __P1 - Production de services__
-#### __D1.3 - Mise en production d’un service__
+#### __P1 - Production de services - D1.3 - Mise en production d’un service__
 
+|----------|-------------|-------------------|
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A1.3.1 Test d’intégration et d’acceptation d’un service | C1.3.1.1 Mettre en place l’environnement de test du service | 60% |
@@ -15,10 +15,10 @@ permalink: /Compétences/
 
 &nbsp;
 
-#### __P3 - Conception et maintenance de solutions d’infrastructure__ 
-#### __D3.2 - Installation d’une solution d’infrastructure__
+#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A3.2.1 Installation et configuration d’éléments d’infrastructure| C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur | 100% |
 |                                | C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | 100% |
+
