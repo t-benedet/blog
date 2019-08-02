@@ -9,7 +9,7 @@ permalink: /Compétences/
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-| A1.3.1 Test d’intégration et d’acceptation d’un service | [C1.3.1.1 Mettre en place l’environnement de test du service]({{ site.baseurl }}{% _posts 2019-08-92-Test.md %})| 60% |
+| A1.3.1 Test d’intégration et d’acceptation d’un service | [C1.3.1.1 Mettre en place l’environnement de test du service]({{ site.baseurl }}{% post_url 2019-08-92-Test.md %})| 60% |
 |                                | [C1.3.1.2 Tester le service]() | |
 || [C1.3.1.3 Rédiger le rapport de test]() |
 
