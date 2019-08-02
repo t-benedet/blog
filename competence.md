@@ -3,4 +3,7 @@ layout: page
 title: Compétences
 permalink: /Compétences/
 ---
-# MA PAGE CONCERNANT MES COMPÉTENCES
+| PORTEFEUILLE DE COMPETENCES |
+-------------------------------
+| Compétences   | Réalisation |
+-------------------------------
