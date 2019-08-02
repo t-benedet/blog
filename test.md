@@ -45,3 +45,48 @@ Cette commande va générer automatiquement une clé privée et une clé publiqu
 
 
 La création de nos clés maintenant terminée, nous allons partager notre clé publique sur les serveurs u104 et OpenSuse.
+<br>
+<br>
+##### __Deuxième étape :__ Partager la clé RSA publique avec le serveur u104
+---
+
+Nous devons nous connecter au serveur u104. Même manipulation que pour acceder au u103 :
+```
+toxsocks ssh tbenedet@15.1.24.54
+```
+
+Une fois que nous sommes connecté, nous devons créer le repertoire .ssh :
+```
+mkdir .ssh
+```
+
+Puis créer le fichier qui va recevoir notre clé publique :
+```
+vi authorized_keys
+```
+
+Enfin, copier/coller notre clé RSA publique. 
+
+On enregistre le fichier vi grâce à la commande __shfit+zz__ ou __:wq!__ et on se déconnecte du serveur en tapant __exit__ dans le terminal.
+&nbsp;
+##### __Troisième étape :__ Partager la clé RSA publique avec le serveur OpenSUSE
+---
+
+On répète les mêmes manipulations qu'à l'étape précédente :
+
+Pour se connecter :
+```
+sss tbenedet@192.168.7.199
+```
+
+La création du fichier .ssh :
+```
+mkdir .ssh
+```
+
+La création du fichier qui va recevoir notre clé publique :
+```
+vi authorized_keys
+```
+
+Il n'y a plus qu'à y mettre note clé, à enregistrer et quitter.
