@@ -17,6 +17,7 @@ permalink: /Compétences/
 #### __P2 - Fourniture de services__
 
 | Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
 
 &nbsp;
 
