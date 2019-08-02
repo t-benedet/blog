@@ -20,4 +20,4 @@ permalink: /Compétences/
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A3.2.1 Installation et configuration d’éléments d’infrastructure| C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur | 100% |
-|                                | C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | 100% |
+|                                | C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | <p> <pan style=color:green"> 100%</span></p> |
