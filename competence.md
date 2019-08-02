@@ -11,3 +11,12 @@ permalink: /Compétences/
 | A1.3.1 Test d’intégration et d’acceptation d’un service | C1.3.1.1 Mettre en place l’environnement de test du service | 60% |
 |                                | C1.3.1.2 Tester le service | |
 || C1.3.1.3 Rédiger le rapport de test |
+
+&nbsp;
+
+#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+| A3.2.1 Installation et configuration d’éléments d’infrastructure| C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur | 100% |
+|                                | C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | 100% |
