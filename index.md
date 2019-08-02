@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Homepage
+title: Accueil
 ---
 # Concernant ce blog... 
 <p><span style="color:#808080">2019-08-01</span></p> 
