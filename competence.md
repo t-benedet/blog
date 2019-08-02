@@ -4,7 +4,8 @@ title: Compétences
 permalink: /Compétences/
 ---
 
-#### __P1 - Production de services - D1.3 - Mise en production d’un service__
+#### __P1 - Production de services__
+#### __D1.3 - Mise en production d’un service__
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
@@ -14,7 +15,8 @@ permalink: /Compétences/
 
 &nbsp;
 
-#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
+#### __P3 - Conception et maintenance de solutions d’infrastructure__ 
+#### __D3.2 - Installation d’une solution d’infrastructure__
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
