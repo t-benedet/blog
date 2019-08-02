@@ -10,7 +10,7 @@ permalink: /Compétences/
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A1.3.1 Test d’intégration et d’acceptation d’un service | [C1.3.1.1 Mettre en place l’environnement de test du service]()| <span style="color:orange"><strong>60%</strong></span>  |
-|                                | [C1.3.1.2 Tester le service]() | |
+|                                | [C1.3.1.2 Tester le service]() |<span style="color:red"><strong>0%</strong></span> |
 || [C1.3.1.3 Rédiger le rapport de test]() |
 
 &nbsp;
