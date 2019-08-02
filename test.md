@@ -90,3 +90,30 @@ vi authorized_keys
 ```
 
 Il n'y a plus qu'à y mettre note clé, à enregistrer et quitter.
+<br>
+<br>
+#### __Quatrième étape :__ Vérifier si nos clés sont bien prises en compte
+
+
+On se reconnecte sur u103 et on essaie de se connecter à u104 en ssh :
+
+![image_2](https://image.noelshack.com/fichiers/2019/29/4/1563441469-ffff.jpg)
+
+Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur OpenSUSE via u103 :
+
+![image_3](https://image.noelshack.com/fichiers/2019/29/4/1563441616-9.png)
+
+La connection aux deux serveurs via le serveur u103 fonctionne parfaitement. Les deux clés RSA ont donc bien été prises en compte. 
+&nbsp;
+
+Maintenant, il nous est possible de faire passer quelques commandes depuis u103 vers les deux serveurs. Si on test la commande __hostname__ :
+
+Pour la SUSE :
+
+![image_4](https://image.noelshack.com/fichiers/2019/29/4/1563441770-10.png)
+
+
+Pour le serveur u104 :
+
+![image_5](https://image.noelshack.com/fichiers/2019/29/4/1563441890-12.png)
+
