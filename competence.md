@@ -4,7 +4,7 @@ title: Compétences
 permalink: /Compétences/
 ---
 #### __P1 - Production de services - D1.3 - Mise en production d’un service__
-[C1.3.1.1 Mettre en place l’environnement de test du service]({{ site.baseurl }}{% post_url 2019-08-02-test %})
+
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
