@@ -4,8 +4,4 @@ title: CV
 permalink: /CV/
 ---
 
-# <p><span style="color:green"><strong>100%</strong></span> </p>
-# COUCOU
-## COUCOU
-### COUCOU
-#### COUCOU
+![image_1(https://image.noelshack.com/fichiers/2019/31/6/1564856419-sans-titre.png)
