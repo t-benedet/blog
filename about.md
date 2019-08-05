@@ -1,7 +1,6 @@
 ---
 layout: page
 title: CV
-permalink: /CV/
+permalink: https://timothee-benedet.github.io/online-cv
 ---
 
-<iframe src="https://timothee-benedet.github.io/online-cv/"></iframe> 
