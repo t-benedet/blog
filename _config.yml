@@ -51,11 +51,5 @@ plugins:
  - jekyll-seo-tag
  - jekyll-redirect-from
  
- defaults:
-  -
-    scope:
-      type: redirects
-    values:
-      layout: redirect
-      
- 
+gems:
+  - jekyll-redirect-from
