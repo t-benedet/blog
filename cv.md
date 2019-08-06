@@ -1,5 +1,5 @@
 ---
 layout: default
-redirect_from: "/online-cv/"
+redirect_to: "/online-cv/"
 title: CV
 ---
