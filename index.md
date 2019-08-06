@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Accueil
 ---
 
 # Concernant ce blog... 
