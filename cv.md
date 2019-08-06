@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: redirect
 redirect_to: https://timothee-benedet.github.io/online-cv/
 title: CV
 ---
