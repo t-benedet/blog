@@ -1,5 +1,5 @@
 ---
-layout: redirect
-redirect_to: https://timothee-benedet.github.io/online-cv/
+redirect_to: 
+  - https://timothee-benedet.github.io/online-cv/
 title: CV
 ---
