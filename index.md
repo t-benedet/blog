@@ -34,3 +34,7 @@ Ce template est un fork de [ce projet](https://github.com/jekyll/minima). J'y ap
 
 Projet distribué sous la licence __Open sourced under the [MIT license](https://github.com/jekyll/minima/blob/master/LICENSE.txt)__.
 
+&nbsp;
+### __▪ Concernant mon CV...__
+
+C'est un fork de [ce projet](https://github.com/sharu725/online-cv). Je l'ai simplement édité pour replacer certains éléments comme je le souhaitais. Vous pouvez le le consulter [ici](https://timothee-benedet.github.io/online-cv/). Vous êtes libre de reforker mon projet.
