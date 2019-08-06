@@ -37,4 +37,4 @@ Projet distribué sous la licence __Open sourced under the [MIT license](https:/
 &nbsp;
 ### __▪ Concernant mon CV...__
 
-C'est un fork de [ce projet](https://github.com/sharu725/online-cv). Je l'ai simplement édité pour renplacer certains éléments et le traduire en français. Vous pouvez le consulter [ici](https://timothee-benedet.github.io/online-cv/). Vous êtes libre de reforker mon projet.
+C'est un fork de [ce projet](https://github.com/sharu725/online-cv). Je l'ai simplement édité pour remplacer certains éléments et le traduire en français. Vous pouvez le consulter [ici](https://timothee-benedet.github.io/online-cv/). Vous êtes libre de reforker mon projet.
