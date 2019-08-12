@@ -148,6 +148,8 @@ Là, il y a un mieux dans le résultat final :
 
 Autre option, beaucoup plus propre, serait de passer par __awk__ :
 ```
+#!/bin/bash
+...
 cat /var/www/cgi-bin/LPAR_MAP/*.csv | grep $test |  awk -F ';|,' '{
                         print "FRAME : " $1
                         print "LPARS : " $2
@@ -167,6 +169,9 @@ Je préfère cette version, beaucoup plus propre. Mais reste le même problème 
 
 Finalement, la version finale est celle-ci :
 ```
+#!/bin/bash
+...
+
 read a
 test=$( echo $a | cut -d'=' -f2)
 
@@ -208,6 +213,9 @@ On voit bien que dans cet exemple, le __FRAME__ choisi est le MO1PPC05, qu'il af
 
 Même chose que pour les FRAMES finalement. Je reprends donc mon bout de script pour les FRAMES et je remplace certaines valeurs :
 ```
+#!/bin/bash
+...
+
 read a
 test=$( echo $a | cut -d'=' -f2)
 
@@ -255,6 +263,9 @@ Que ce soit pour les FRAMS ou les LPARS, la solution actuelle proposait un affic
 
 Notre script actuel est celui-ci ( je ne montre pas la partie html puisque c'est le code de base d'une page web ) :
 ```
+#!/bin/bash
+...
+
 read a
 test=$( echo $a | cut -d'=' -f2)
 echo '<PRE>'
@@ -279,6 +290,9 @@ done
 &nbsp;
 Comme dit plus haut, le résultat était trop brute. Je tente donc d'intégrer ma boucle `for` entre des tag __< table >__ histoire de pouvoir générer un tableau. Le but ici sera de créer une nouvelle colonne à chaque " Date ============= XXXX " rencontré. Mon premier essai est celui ci :
 ```
+#!/bin/bash
+...
+
 read a
 test=$( echo $a | cut -d'=' -f2)
 
@@ -347,6 +361,9 @@ Quelques explications :
 
 Le script final est donc :
 ```
+#!/bin/bash
+...
+
 read a
 test=$( echo $a | cut -d'=' -f2)
 
@@ -403,6 +420,9 @@ Après quelques recherches, je tombe sur la commande `awk '!a[$0]++'` qui permet
 Mon nouveau script ressemble à ça :
 
 ```
+#!/bin/bash
+...
+
 awk -F",|;" ' {$0=$1","$2","$5","$6","$7 } /'$test'/ { if (!a[$0]++)
 { 
 print "" printf "LPARS : %s\n", $2
@@ -425,6 +445,9 @@ Quelques explications :
 
 Il ne reste plus qu'à intégrer ce script dans une boucle `for` et entre des tags `html`, d'ajouter la variable `FILENAME` histoire de pouvoir afficher le nom du fichier en cours d'analyse et de récupérer que la partire __date__ :
 ```
+#!/bin/bash
+...
+
 echo "<table>" 
 for fn in /var/www/cgi-bin/LPAR_MAP/*.csv; 
 do 
