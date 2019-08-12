@@ -10,6 +10,7 @@ title: Compétence C1.3.1.1
 - Deux autres menus déroulant, mais proposant cette fois-ci de visionner les informations entre deux dates choisies. 
 
 Les scripts qui vont suivre sont donc intégrés dans une page html.
+
 &nbsp;
 #### __Première étape : Le script pour les FRAMES__
 
@@ -24,6 +25,7 @@ Pour chaques fichiers, 11 colonnes pour environ 1000 lignes. Les colonnes qui no
 - La sixième avec la quantité de CPU1 ( à définir )
 - La septième avec la quantité de CPU2 ( à définir )
 
+&nbsp;
 Voici ma première version du script qui traitera les FRAMES :
 ```
 #!/bin/bash
@@ -109,6 +111,7 @@ Ce script permet d'afficher, par __FRAMES__, les différents __LPARS__ ainsi que
 
 C'est donc sur ces deux points qu'il faut travailler. 
 
+&nbsp;
 Une autre version du script serait celle-ci :
 ```
 #!/bin/bash
@@ -145,6 +148,7 @@ Là, il y a un mieux dans le résultat final :
 - L'ajout de la boucle for permet d'afficher le fichier en cours d'exécution
 - La deuxième boucle while permet de parcourir l'ensemble des fichiers 
 
+&nbsp;
 Autre option, beaucoup plus propre, serait de passer par __awk__ :
 ```
 #!/bin/bash
@@ -164,8 +168,10 @@ Quelques explications :
 - Le `grep $test` => Va afficher uniquement les lignes contenant le contenu de la variable $test
 - Le reste du code va afficher FRAME/LPARS/RAM/CPU/CPU2 tout en prenant les les informations dans les colonnes 1,2,5,6 et 7
 
+&nbsp;
 Je préfère cette version, beaucoup plus propre. Mais reste le même problème que pour la prmeière version du script : j'arrive à afficher tous les __FRAMES__ avec tous les __LPARS__ alors que je veux un __FRAME__ et ses __LPARS__. De plus, le `cat`, puis le `grep` puis le `awk` sont trop de procéssus à la suite, on perd en performance même si ça ne se voit pas. 
 
+&nbsp;
 Finalement, la version finale est celle-ci :
 ```
 #!/bin/bash
@@ -207,6 +213,7 @@ Ce script n'est pas terminé. Il faut encore ajouter une option "calcul", qui pe
 ![image_2](http://image.noelshack.com/fichiers/2019/29/5/1563543665-frame2.png)
 
 On voit bien que dans cet exemple, le __FRAME__ choisi est le MO1PPC05, qu'il affiche correctement le nom des fichiers et les informations qui vont avec.
+
 &nbsp;
 #### __Deuxième étape : Le script pour les LPARS__ 
 
@@ -287,6 +294,7 @@ do
 done
 ```
 &nbsp;
+
 Comme dit plus haut, le résultat était trop brute. Je tente donc d'intégrer ma boucle `for` entre des tag __< table >__ histoire de pouvoir générer un tableau. Le but ici sera de créer une nouvelle colonne à chaque " Date ============= XXXX " rencontré. Mon premier essai est celui ci :
 ```
 #!/bin/bash
@@ -333,8 +341,8 @@ Quelques explications :
 Le résultat est tout à fait satisfaisant :
 
 ![image_3](http://image.noelshack.com/fichiers/2019/30/5/1564134900-dateok.png)
-&nbsp;
 
+&nbsp;
 #### __Deuxième partie : Suppression des lignes inutiles__ 
 
 Comme mon script analyse et prend en compte toutes les lignes des CSV, des colonnes vont se créer avec l'entête " Date =========== XXX " sans pour autant afficher de résultat puisque les lignes dans les différents CSV seront vides :
