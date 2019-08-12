@@ -12,7 +12,7 @@ title: Compétence C1.3.1.1
 Les scripts qui vont suivre sont donc intégrés dans une page html.
 
 &nbsp;
-#### __Première étape : Le script pour les FRAMES__
+#### __Première partie : Le script pour les FRAMES__
 
 Pour cette étape, j'ai 276 csv dans lesquels je vais pouvoir piocher les informations dont j'ai besoin. Voici un exemple de fichier :
 
