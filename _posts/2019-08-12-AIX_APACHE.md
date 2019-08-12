@@ -8,8 +8,8 @@ La configuration des serveurs avec ma clé RSA publique étant maintenant termin
 &nbsp;
 &nbsp;
 
-### 1 - Installation d'Apache
-----
+### __I - Installation d'Apache__
+
 &nbsp;
 Pour l'installation nous allons utiliser l'utilitaire __Smitty__. On tape donc :
 
@@ -44,6 +44,7 @@ Un catalogue des applications déjà présente s'ouvre. On voit que si on tape `
 ![image_6](http://image.noelshack.com/fichiers/2019/29/5/1563523718-6.png)
 
 Plusieurs paquets sont disponibles :
+
 - httpd.base
 - httpd.licence
 - httpd.man.en-US
@@ -59,8 +60,9 @@ Puis on tape sur entrer pour lancer l'installation :
 On aurait pu installer directement les 3 paquets httpd. Sur le coup nous n'avons pas jugé cela nécessaire. Mais nous décidons finalement de les installer. On réitère donc la même opéréation pour les paquets httpd.licence et httpd.man.en-US
 
 Apache est mainteant installé. Nous allons pouvoir mettre en place notre CGI.
+
 &nbsp;
-##### __Première étape :__ Configuration du fichier httpd.conf
+#### __Première étape : Configuration du fichier httpd.conf__
 ----
 Les fichiers de configuration httpd sous AIX se trouve dans __/usr/IBMAHS/conf__. Il faut donc s'y rendre. Pour se faire, je me connecte au serveur u103, je passe root et je tape :
 ```
