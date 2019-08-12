@@ -4,8 +4,7 @@ title: Compétence C1.3.1.1
 ---
 ### __Mettre en place l’environnement de test du service__
 
-&nbsp;
-La partie Gnuplot étant terminée, nous allons passer à la demande concernant les FRAMES et les LPARS. L'idée sera de proposer :
+&nbsp;La partie Gnuplot étant terminée, nous allons passer à la demande concernant les FRAMES et les LPARS. L'idée sera de proposer :
 - Un menu déroulant avec le nom des FRAMES, avec un bouton "Générate" qui affichera les informations sur le FRAME en question
 - Un autre menu déroulant, faisant la même chose mais avec le nom des LPARS
 - Deux autres menus déroulant, mais proposant cette fois-ci de visionner les informations entre deux dates choisies. 
