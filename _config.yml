@@ -42,6 +42,7 @@ minima:
 header_pages:
  - competence.md
  - cv.md
+ - Veille
 
 # Build settings
 theme: minima
