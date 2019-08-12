@@ -10,8 +10,8 @@ title : Compétence A3.2.1
 &nbsp;
 #### __Je peux maintenant passer à l'installation d'Apache sous AIX et OpenSUSE :__
 
-- [Installation et configuration d'Apache sous OpenSUSE]()
-- [Installation et configuration d'Apache sous AIX]
+- Installation et configuration d'Apache sous OpenSUSE
+- Installation et configuration d'Apache sous AIX
 
 &nbsp;
 ####  __Installation de Gnuplot :__
