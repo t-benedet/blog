@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  I - C1.3.1.1 Mettre en place l’environnement de test du service
 ---
+## I - C1.3.1.1 Mettre en place l’environnement de test du service
 
 &nbsp;
 La partie Gnuplot étant terminée, nous allons passer à la demande concernant les FRAMES et les LPARS. L'idée sera de proposer :
@@ -11,7 +11,7 @@ La partie Gnuplot étant terminée, nous allons passer à la demande concernant 
 
 Les scripts qui vont suivre sont donc intégrés dans une page html.
 &nbsp;
-#### Première étape : Le script pour les FRAMES
+#### __Première étape : Le script pour les FRAMES__
 
 Pour cette étape, j'ai 276 csv dans lesquels je vais pouvoir piocher les informations dont j'ai besoin. Voici un exemple de fichier :
 
@@ -203,7 +203,7 @@ Ce script n'est pas terminé. Il faut encore ajouter une option "calcul", qui pe
 
 On voit bien que dans cet exemple, le __FRAME__ choisi est le MO1PPC05, qu'il affiche correctement le nom des fichiers et les informations qui vont avec.
 &nbsp;
-#### Deuxième étape : Le script pour les LPARS 
+#### __Deuxième étape : Le script pour les LPARS__ 
 
 Même chose que pour les FRAMES finalement. Je reprends donc mon bout de script pour les FRAMES et je remplace certaines valeurs :
 ```
@@ -250,7 +250,7 @@ Que ce soit pour les FRAMS ou les LPARS, la solution actuelle proposait un affic
 ![image_2](http://image.noelshack.com/fichiers/2019/30/5/1564128029-lpars.png)
 &nbsp;
 
-#### Première étape : Modification du script, tableau et nom 
+#### __Première étape : Modification du script, tableau et nom__
 
 Notre script actuel est celui-ci ( je ne montre pas la partie html puisque c'est le code de base d'une page web ) :
 ```
@@ -321,7 +321,7 @@ Le résultat est tout à fait satisfaisant :
 ![image_3](http://image.noelshack.com/fichiers/2019/30/5/1564134900-dateok.png)
 &nbsp;
 
-#### Deuxième partie : Suppression des lignes inutiles 
+#### __Deuxième partie : Suppression des lignes inutiles__ 
 
 Comme mon script analyse et prend en compte toutes les lignes des CSV, des colonnes vont se créer avec l'entête " Date =========== XXX " sans pour autant afficher de résultat puisque les lignes dans les différents CSV seront vides :
 
@@ -391,7 +391,7 @@ En revanche, nouveau problème : même s'il n'y a plus d'affichage pour les lign
 
 &nbsp;
 
-#### Troisième partie : Rappel de ce qu'il faut faire et changement du script
+#### __Troisième partie : Rappel de ce qu'il faut faire et changement du script__
 
 J'avais mal compris ce qu'il fallaire. En plus de ça, la personne qui m'a demandée ce script ne m'avait pas donné le bon fichier... Donc forcément...
 
