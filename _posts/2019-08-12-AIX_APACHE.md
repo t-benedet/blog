@@ -63,7 +63,7 @@ Apache est mainteant installé. Nous allons pouvoir mettre en place notre CGI.
 
 &nbsp;
 #### __Première étape : Configuration du fichier httpd.conf__
-----
+
 Les fichiers de configuration httpd sous AIX se trouve dans __/usr/IBMAHS/conf__. Il faut donc s'y rendre. Pour se faire, je me connecte au serveur u103, je passe root et je tape :
 ```
 cd /usr/IBMAHS/conf
@@ -93,9 +93,10 @@ On cherche ensuite la ligne __AddHandler__ et on modifie comme cela :
 De base, __cgi-script__ et __.cgi__ sont déjà présents. Cela veut dire qu'Apache va executer ces types de fichiers comme étant des fichiers CGI. Comme nous voulons que nos script __.ksh__ soient reconnus aussi, on ajoute l'extension __.ksh__.
 
 Notre fichier __httpd.conf__ est maintenant configuré. Nous allons donc passer à la création de notre première page CGI.
+
 &nbsp;
-##### __Deuxième étape :__ Création de la première page CGI
----
+#### __Deuxième étape : Création de la première page CGI__
+
 
 Mon profil n'étant pas encore totalement compliant, c'est mon tuteur qui testera l'efficacité de ma page. 
 
