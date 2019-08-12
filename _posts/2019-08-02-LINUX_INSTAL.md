@@ -9,4 +9,4 @@ title: Compétence C1.3.1.1
 
 ### __Mise en place des scripts :__
 
-- [Script/Gnuplot : Frame & LPARS]({{ site.baseurl }}{% post_url 2019-08-12-FERGAL _LINUX_CGI %})
+- Script/Gnuplot : Frame & LPARS
