@@ -5,7 +5,7 @@ title : Compétence A3.2.1
 
 #### __Avant toute chose, il est nécessaire de configurer mon post afin de pouvoir me connecter en SSH aux différents serveurs :__
 
-- [Création & installation de la clé SSH]()
+- [Création & installation de la clé SSH]({{ site.baseurl }}{% post_url 2019-08-12-SSH_LINUX_AIX_CONF.md %})
 
 &nbsp;
 #### __Je peux maintenant passer à l'installation d'Apache sous AIX et OpenSUSE :__
