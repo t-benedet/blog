@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
+title: Compétence C1.3.1.1
 ---
-### __I - C1.3.1.1 Mettre en place l’environnement de test du service__
+### __Mettre en place l’environnement de test du service__
 
 &nbsp;
 La partie Gnuplot étant terminée, nous allons passer à la demande concernant les FRAMES et les LPARS. L'idée sera de proposer :
