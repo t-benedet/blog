@@ -3,6 +3,7 @@ layout: default
 title: Compétences
 permalink: /Compétences/
 ---
+
 #### __P1 - Production de services - D1.3 - Mise en production d’un service__
 
 
