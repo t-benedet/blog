@@ -30,5 +30,5 @@ permalink: /Compétences/
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A3.2.1 Installation et configuration d’éléments d’infrastructure| [C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur]({{ site.baseurl }}{% post_url 2019-08-12-SSH_APACHE_LINUX_AIX %})| <span style="color:green"><strong>100%</strong></span> |
-|                                | C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte ( [AIX]({{ site.baseurl }}{% post_url 2019-08-12-AIX_CGI %}) - [LINUX]({{ site.baseurl }}{% post_url 2019-08-12-LINUX_CGI %})) |<span style="color:green"><strong>100%</strong></span> |
+|                                | C[3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte]({{ site.baseurl }}{% post_url 2019-08-12-AIX_CGI %})|<span style="color:green"><strong>100%</strong></span> |
 
