@@ -7,7 +7,7 @@ Pour le bien de l’équipe AIX, il était nécessaire de développer une CGI en
 &nbsp;
 &nbsp;
 
-#### I - Mise en place de la CGI en bash/html sous AIX 7.2 et OpenSUSE
+#### __I - Mise en place de la CGI en bash/html sous AIX 7.2 et OpenSUSE__
 
 &nbsp;Avant de commencer notre CGI, certaines manipulations sont nécessaires afin de faciliter l'utilisation de notre CGI. Nous travaillons sur plusieurs serveurs et avec des systèmes différents : AIX 7.2 et OpenSUSE. 
 
