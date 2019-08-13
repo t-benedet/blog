@@ -5,8 +5,8 @@ title : Mise en place et test d'un service
 
 #### __Mise en place de la CGI :__
 
-- [CGI sous AIX]({{ site.baseurl }}{% post_url 2019-08-12-SSH_LINUX_AIX_CONF %})
-- [CGI sous LINUX]
+- [CGI sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXCGI %})
+- [CGI sous LINUX]()
 
 &nbsp;
 #### __Je peux maintenant passer à l'installation d'Apache sous AIX et OpenSUSE :__
