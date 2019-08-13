@@ -3,7 +3,7 @@ layout: post
 title : Mise en place et test d'un service
 ---
 
-#### __ Mise en place de la CGI :__
+#### __Mise en place de la CGI :__
 
 - [CGI sous AIX]({{ site.baseurl }}{% post_url 2019-08-12-SSH_LINUX_AIX_CONF %})
 - [CGI sous LINUX]
