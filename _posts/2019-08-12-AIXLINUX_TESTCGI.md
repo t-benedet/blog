@@ -5,7 +5,7 @@ title : Mise en place et test d'un service
 
 #### __Mise en place de la CGI :__
 
-- [CGI sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXCGI %})
+- [CGI sous AIX]
 - [CGI sous LINUX]()
 
 &nbsp;
