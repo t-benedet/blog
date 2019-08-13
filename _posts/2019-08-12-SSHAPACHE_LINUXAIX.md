@@ -22,5 +22,5 @@ title : Installation et configuration d'un service
 &nbsp;
 ####  __Configuration du fichier httpd.conf :__
 
-- [Modification du fichier httpd.conf sous AIX]()
+- [Modification du fichier httpd.conf sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXHTTPD %})
 - [Modificaiton du fichier httpd.conf sous OpenSuse]()
