@@ -19,3 +19,8 @@ title : Installation et configuration d'un service
 - [Installation de Gnuplot sous OpenSUSE]()
 - [Installation de Gnuplot sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXGNUP %})
 
+&nbsp;
+####  __Configuration du fichier httpd.conf :__
+
+- [Modification du fichier httpd.conf sous AIX]()
+- [Modificaiton du fichier httpd.conf sous OpenSuse]()
