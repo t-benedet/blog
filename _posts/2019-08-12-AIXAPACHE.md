@@ -39,6 +39,20 @@ Un catalogue des applications déjà présente s'ouvre. On voit que si on tape `
 ![image_6](http://image.noelshack.com/fichiers/2019/29/5/1563523718-6.png)
 
 Plusieurs paquets sont disponibles :
+
 - httpd.base
 - httpd.licence
 - httpd.man.en-US
+
+&nbsp;
+On séléctionne d'abord `httpd.base` en tapant sur F7 et on voit que notre paquet __httpd.base__ s'est ajouté sur la ligne __SOFTWARE to install__:
+
+![image_7](http://image.noelshack.com/fichiers/2019/29/5/1563523826-7.png)
+
+Puis on tape sur entrer pour lancer l'installation :
+
+![image_8](http://image.noelshack.com/fichiers/2019/29/5/1563523928-9.png)
+
+On aurait pu installer directement les 3 paquets httpd. Sur le coup nous n'avons pas jugé cela nécessaire. Mais nous décidons finalement de les installer. On réitère donc la même opéréation pour les paquets httpd.licence et httpd.man.en-US
+
+Apache est mainteant installé. 
