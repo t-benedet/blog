@@ -10,7 +10,7 @@ permalink: /Compétences/
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 | A1.3.1 Test d’intégration et d’acceptation d’un service |[C1.3.1.1 Mettre en place l’environnement de test du service]({{ site.baseurl }}{% post_url 2019-08-12-SSHAPACHE_LINUXAIX %})| <span style="color:orange"><strong>60%</strong></span>  |
-|| C1.3.1.2 Tester le service|<span style="color:red"><strong>0%</strong></span> |
+|| [C1.3.1.2 Tester le service]({{ site.baseurl }}{% post_url 2019-08-13-AIXCGI %})|<span style="color:red"><strong>0%</strong></span> |
 || C1.3.1.3 Rédiger le rapport de test |<span style="color:red"><strong>0%</strong></span> |
 
 &nbsp;
@@ -32,4 +32,3 @@ permalink: /Compétences/
 |----------|-------------|-------------|
 | A3.2.1 Installation et configuration d’éléments d’infrastructure | [C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur]({{ site.baseurl }}{% post_url 2019-08-12-SSHAPACHE_LINUXAIX %}) | <span style="color:green"><strong>100%</strong></span> |
 || C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | <span style="color:green"><strong>100%</strong></span> |
-
