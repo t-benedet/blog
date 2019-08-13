@@ -1,6 +1,6 @@
 ---
 layout: post
-title : Compétence A3.2.1
+title : Installation et configuration d'un service
 ---
 
 #### __Avant toute chose, il est nécessaire de configurer mon post afin de pouvoir me connecter en SSH aux différents serveurs :__
