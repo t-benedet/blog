@@ -25,8 +25,4 @@ title : Installation et configuration d'un service
 - [Installation de Gnuplot sous OpenSUSE]()
 - [Installation de Gnuplot sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXGNUP %})
 
-&nbsp;
-####  __Remplacement de Gnuplot par R:__
 
-- [Installation de R sous AIX]({{ site.baseurl }}{% post_url 2019-08-13-AIXHTTPD %})
-- [Installation de R sous OpenSuse]()
