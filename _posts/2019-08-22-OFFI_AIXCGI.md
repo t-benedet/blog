@@ -249,10 +249,12 @@ Ce qui, lorsque que l'on tape l'adresse IP du serveur dans la barre url de Firef
 ![image_1](http://image.noelshack.com/fichiers/2019/34/4/1566466645-cgi-ok1.png)
 
 
+&nbsp;
 On y voit trois " zones " :
 
 
 &nbsp;
+
 __1. U103 Server status__ 
 
 -> Un " simple " bout de script qui sera executé lorsque la CGI est ouverte :
