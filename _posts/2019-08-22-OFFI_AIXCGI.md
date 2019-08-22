@@ -10,6 +10,7 @@ Cette CGI nous permettra de suivre l'évolution de l'espace disponible de diffé
 
 Notre base de travail sera le résultat de la commande `df` qui permet de lister les différents filesystems présents sur le serveur avec le total d'espace disponible, ce qui est déjà occupé etc... Pour une meilleure visibilté, nous passerons la commande `df -g` qui nous permet de lister exactement la même chose que la commande `df` mais en convertissant le tout en giga :
 
+
 &nbsp;
 __Output commande `df`:__ 
 ```
@@ -38,6 +39,7 @@ Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
 /dev/lvsource   21037056  14399344   32%     6663     1% /repsource
 beisilanfp100_adm:/Software  2688811008 964312856   65%   234991     1% /Software
 ```
+
 &nbsp;
 __Output commande `df -g` :__
 ```
@@ -69,10 +71,13 @@ beisilanfp100_adm:/Software    1282.12    459.82   65%   234992     1% /Software
 
 Le but sera de créer automatiquement des sauvegardes de ce fichier tous les X temps afin de pouvoir tracer des graphiques pour suivre l'évolution des différents filesystems et réussir à tracer une courbe de tendance afin de prévoir l'espace qui sera nécessaire dans le futur.
 
+
 &nbsp;
 ### I - Création de la page d'index
 
-Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment [sur ma machine en local](). Voilà donc mon premier code :
+Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment [sur ma machine en local](). V
+
+Voilà donc mon premier code :
 ```
 #!/bin/ksh
 
@@ -237,6 +242,7 @@ echo "
 </body>
 </html> "
 ```
+
 &nbsp;
 Ce qui, lorsque que l'on tape l'adresse IP du serveur dans la barre url de Firefox, affiche :
 
@@ -244,6 +250,7 @@ Ce qui, lorsque que l'on tape l'adresse IP du serveur dans la barre url de Firef
 
 On y voit trois " zones " :
 
+&nbsp;
 __1. U103 Server status__ 
 
 -> Un " simple " bout de script qui sera executé lorsque la CGI est ouverte :
@@ -260,6 +267,7 @@ ping -c 1 10.14.54.103 ;
 ```
 
 Je ping l'adresse du serveur avec l'option `-c 1` qui permet d'arrêter le ping au premier paquet __envoyé et valide__. Si le retour est `echo 0`, c'est que le ping s'est bien passé, la CGI renverra donc le résumé du `ping` et affichera " Serveur status : OK  ". Si le retour est `echo 1`, c'est que le serveur ne répond pas, la CGI affichera donc " Serveur status : DOWN  " . 
+
 
 &nbsp;
 __2. U103 Server Graph :__
@@ -282,6 +290,7 @@ echo "<div class="C_button">"
 Le contenu de mes listbox sera le résultat de la commande `df -g`. Je ne prends pas le résultat complet puisque que je n'affiche que la première colonne avec `awk '{print $1}'`. De plus, je supprime " l'en tête " de la colonne avec la commande `sed '1,1d'` qui permet de supprimer la première ligne de mon contenu.
 Les listbox vont donc contenir la liste de mes filesystems.
 
+
 &nbsp;
 __3. df -g current stats :__
  
@@ -292,6 +301,7 @@ df -g
 echo "</PRE>"
 ```
 Le tout entre des balises `<PRE> </PRE>` pour garder la forme de la mise en page.		       
+
 
 &nbsp;
 La page d'index de la première version officielle de la CGI sous AIX 7.2 est maintenant terminée. Nous y reviendrons plus tard en cas de changement.
