@@ -244,12 +244,14 @@ echo "
 ```
 
 &nbsp;
+
 Ce qui, lorsque que l'on tape l'adresse IP du serveur dans la barre url de Firefox, affiche :
 
 ![image_1](http://image.noelshack.com/fichiers/2019/34/4/1566466645-cgi-ok1.png)
 
 
 &nbsp;
+
 On y voit trois " zones " :
 
 
