@@ -75,7 +75,7 @@ Le but sera de créer automatiquement des sauvegardes de ce fichier tous les X t
 &nbsp;
 ### I - Création de la page d'index
 
-Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment [sur ma machine en local](). V
+Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment [sur ma machine en local]().
 
 Voilà donc mon premier code :
 ```
@@ -248,7 +248,9 @@ Ce qui, lorsque que l'on tape l'adresse IP du serveur dans la barre url de Firef
 
 ![image_1](http://image.noelshack.com/fichiers/2019/34/4/1566466645-cgi-ok1.png)
 
+
 On y voit trois " zones " :
+
 
 &nbsp;
 __1. U103 Server status__ 
@@ -270,6 +272,7 @@ Je ping l'adresse du serveur avec l'option `-c 1` qui permet d'arrêter le ping 
 
 
 &nbsp;
+
 __2. U103 Server Graph :__
 
 -> Ici, je génère des listbox en html que je remplie à l'aide d'une boucle `while` :
@@ -292,6 +295,7 @@ Les listbox vont donc contenir la liste de mes filesystems.
 
 
 &nbsp;
+
 __3. df -g current stats :__
  
  -> Ici, je ne fais qu'afficher en temps réel le résultat de la commande `df -g` :
@@ -304,4 +308,5 @@ Le tout entre des balises `<PRE> </PRE>` pour garder la forme de la mise en page
 
 
 &nbsp;
+
 La page d'index de la première version officielle de la CGI sous AIX 7.2 est maintenant terminée. Nous y reviendrons plus tard en cas de changement.
