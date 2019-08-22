@@ -1,6 +1,6 @@
 ---
 layout : post
-title: XXX
+title: Mise en place
 ---
 
 ### Mise en place de la véritable CGI sous AIX 7.2
