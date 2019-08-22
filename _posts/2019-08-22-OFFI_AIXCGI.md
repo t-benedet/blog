@@ -75,7 +75,7 @@ Le but sera de créer automatiquement des sauvegardes de ce fichier tous les X t
 &nbsp;
 ### I - Création de la page d'index
 
-Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment [sur ma machine en local]().
+Pour la mise en place de cette page, je vais m'inspirer de ce que j'avais pu faire précédemment sur ma machine en local.
 
 Voilà donc mon premier code :
 ```
