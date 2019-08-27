@@ -36,10 +36,12 @@ permalink: /Compétences/
 
 &nbsp;
 
-#### __P4 - Conception et maintenance de solutions applicatives - D3.2 - Maintenance d'une solution applicative__
+#### __P4 - Conception et maintenance de solutions applicatives - D4.2 - Maintenance d'une solution applicative__
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-| A4.2.2 Adaptation d’une solution applicative aux évolutions de ses composants| [C4.2.2.1 Repérer les évolutions des composants
-utilisés et leurs conséquences]({{ site.baseurl }}{% post_url 2019-08-12-SSHAPACHE_LINUXAIX %}) | <span style="color:green"><strong>100%</strong></span> |
-|| C4.2.2.2 Concevoir les mises à jour à effectuer | <span style="color:green"><strong>100%</strong></span> |
+| A4.2.2 Adaptation d’une solution applicative aux évolutions de ses composants | [C4.2.2.1 Repérer les évolutions des composants
+utilisés et leurs conséquences] | <span style="color:green"><strong>100%</strong></span> |
+|| [C4.2.2.2 Concevoir les mises à jour à effectuer] | <span style="color:green"><strong>100%</strong></span> |
+|| [C4.2.2.3 Élaborer et réaliser les tests unitaires des
+composants mis à jour] | <span style="color:green"><strong>100%</strong></span> |
