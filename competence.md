@@ -32,7 +32,7 @@ permalink: /Compétences/
 |----------|-------------|-------------|
 | A3.2.1 Installation et configuration d’éléments d’infrastructure | [C3.2.1.1 Installer et configurer un élément d’interconnexion, un service, un serveur, un équipement terminal utilisateur]({{ site.baseurl }}{% post_url 2019-08-12-SSHAPACHE_LINUXAIX %}) | <span style="color:green"><strong>100%</strong></span> |
 || C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte | <span style="color:green"><strong>100%</strong></span> |
-| A3.3.1 Administration sur site ou à distance des éléments d’un réseau, de serveurs, de services et d’équipements terminaux | [C3.3.1.2 Administrer des éléments d’infrastructure sur site ou à distance]() | <span style="color:green"><strong>100%</strong></span> |
+| A3.3.1 Administration sur site ou à distance des éléments d’un réseau, de serveurs, de services et d’équipements terminaux | [C3.3.1.2 Administrer des éléments d’infrastructure sur site ou à distance]({{ site.baseurl }}{% post_url 2019-08-27-FSCREATE %})  | <span style="color:green"><strong>100%</strong></span> |
 
 
 &nbsp;
