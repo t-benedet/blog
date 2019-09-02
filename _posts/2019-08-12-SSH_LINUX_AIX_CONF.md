@@ -10,13 +10,13 @@ Pour le bien de l’équipe AIX, il était nécessaire de développer une CGI en
 
 #### __I - Mise en place de la CGI en bash/html sous AIX 7.2 et OpenSUSE__
 
-&nbsp;Avant de commencer notre CGI, certaines manipulations sont nécessaires afin de faciliter l'utilisation de notre CGI. Nous travaillons sur plusieurs serveurs et avec des systèmes différents : AIX 7.2 et OpenSUSE. 
+&nbsp;Avant de commencer notre CGI, certaines manipulations sont nécessaires afin de faciliter l'utilisation de notre CGI. Nous travaillons sur plusieurs serveurs et avec des systèmes différents : AIX 7.2 et SUSE. 
 
 Nous avons donc les serveurs suivants :
 
 - U103 ( AIX 7.2 )
 - U104 ( AIX 7.2 )
-- Suse-test ( OpenSUSE)
+- Suse-test ( SUSE Linux Enterprise Serveur )
 
 Ayant accès au root sous l'u103, c'est à partir de ce serveur que nous allons travailler. 
 
@@ -96,7 +96,7 @@ On se reconnecte sur u103 et on essaie de se connecter à u104 en ssh :
 
 ![image_2](https://image.noelshack.com/fichiers/2019/29/4/1563441469-ffff.jpg)
 
-Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur OpenSUSE via u103 :
+Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur SUSE via u103 :
 
 ![image_3](https://image.noelshack.com/fichiers/2019/29/4/1563441616-9.png)
 
@@ -116,3 +116,26 @@ Pour le serveur u104 :
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
+
+&nbsp;
+#### __Update du 02 Septembre 2019 :__
+
+Afin de pouvoir passer certaines commandes en remote sur les serveurs __u104__ et __SUSE__ via ma CGI, il était nécessaire de créer un __/home__ pour le user lançant apache. Ce user étant __nobody__ je suis passé via __smitty__ pour lui créer un __/home__ puis il suffisait de taper ` mkdir nobody` dans le __/home__ pour avoir notre repertoire :
+
+![image_6](https://image.noelshack.com/fichiers/2019/36/1/1567429434-apache-rsa.jpg)
+
+J'ai ensuite modifié les droits du repertoire créé avec la commande `chown nobody:nobody nobody` afin que le user qui execute apache puisse écrire dans le repertoire. Ensuite, dans ce repertoire, j'ai du créer le sous repertoire __.ssh__ et y générer une clé RSA grâce à la commande `ssh-keygen -t rsa`. Une fois la clé générée, je l'ai simplement collé dans le fichier __authorized_keys__ de mon user. Cela permet de à Apache de passer sur mon user pour executer certaines ocmmandes sans avoir à entrer le mot de passe.
+
+Pour tester si tout fontionne correment, je me connecte avec le user __nobody__ sur le suerveur __u103__ grâce à la commande `su - nobody` puis je tape :
+```
+ssh tbenedet@u103 "ssh 192.168.7.199 df -m "
+```
+Ce qui donne :
+![image_7](https://image.noelshack.com/fichiers/2019/36/1/1567431873-rsa-suse.jpg)
+
+ON voit bien le retour de la commande `df -m`. Le user __nobody__ passe d'abord sur le user __tbenedet__ pour ensuite executer la commander `df -m` sur le serveur SUSE.
+
+
+
+
+
