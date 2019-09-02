@@ -131,6 +131,7 @@ Pour tester si tout fontionne correment, je me connecte avec le user __nobody__ 
 ssh tbenedet@u103 "ssh 192.168.7.199 df -m "
 ```
 Ce qui donne :
+
 ![image_7](https://image.noelshack.com/fichiers/2019/36/1/1567431873-rsa-suse.jpg)
 
 ON voit bien le retour de la commande `df -m`. Le user __nobody__ passe d'abord sur le user __tbenedet__ pour ensuite executer la commander `df -m` sur le serveur SUSE.
