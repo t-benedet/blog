@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Mise en place de la CGI
+title: C1.3.1.2 Tester le service ( CGI sous AIX 7.2 )
 ---
-
-### C1.3.1.2 Tester le service
 
 Maintenant qu'Apache est installé et configuré, que Gnuplot est installé et mis à jour, je vais pouvoir me lancer dans conception de la CGI.
 Le but de cette CGI est de pouvoir communiquer avec 3 serveurs ( deux AIX 7.2 et un SUSE ) afin de récupérer les informations concernants les différents __filesystem__. Le but est de pouvoir tracé des graphiques pour chaques __fs__  à partir des informations que l'ont va récupérer avec la commande `df -m`.
