@@ -14,8 +14,6 @@ Cette page sera la page d'accueil pour notre CGI. Elle permettra de naviguer et 
 
 Voici le code de la page :
 ```
-#!/bin/ksh
-
 echo "Content-type: text/html"
 echo ""
 
