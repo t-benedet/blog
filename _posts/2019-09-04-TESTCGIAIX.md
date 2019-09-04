@@ -173,4 +173,50 @@ echo "
 Ce qui donne une fois lancé :
 ![image_1]()
 
+&nbsp;
+#### __II - Création du script Gnuplot__
+
+Maintenant que ma page d'accueil est faite, je vais m'attaquer au script Gnuplot. Pour suivre une évolution, il est préférable d'utiliser un graphiques fait de courbes plutôt qu'un histogramme. 
+
+On commence par définir un titre pour le graphique, ses caractéristiques graphiques, l'endroit où devra être généré l'image le style de ligne et point qui sera utilisé : 
+```
+set title "df -m command test" font ",14"
+set terminal pngcairo truecolor size 1250, 500  background rgb "#eff1f0" font "Arial"
+set output "/usr/IBMAHS/htdocs/test.png"
+set style line 1 \
+    linecolor rgb '#0060ad' \
+    linetype 1 linewidth 1 \
+    pointtype 7 pointsize 1
+
+set style line 2 \
+    linecolor rgb "red" \
+    linetype 1 linewidth 1 \
+    pointtype 7 pointsize 1
+```
+&nbsp;
+Ensuite on définir les caractéristiques pures du graphique, tout ce qui écart entre les éléments des axes x et y, l'emplacement de la légende, les titres des axes, comment seront affichés les différentes valeurs des axes ou encore le séparateur présent le fichier contenant les informations utiles pour la création du graphiques :
+```
+set size ratio 0.2
+set offsets 0.5,0.5,0,0.5
+set key horizontal outside bottom center
+set datafile separator ","
+set ylabel " MB BLOCK " font ",14" offset -1,0
+set xlabel " Date " font ",14" 
+set xtics rotate by 45 offset -0.8,-1.8
+set format y "%g"
+myLabel(n) = sprintf("%g",n)
+```
+&nbsp;
+Enfin, on définit le fichier où se trouve les informations nécessaires, on précise que dans notre fichier, la deuxième colonne sera l'axe y et se basera sur la première colonne qui elle, sera l'axe x. On défini ensuite le style de graphique :
+```
+plot "/usr/IBMAHS/htdocs/TEST.txt" using 2:xtic(1) with linespoints linestyle 1 title "MB used", \
+'' using 3:xtic(1) with linespoints linestyle 2 title " Free space ", \
+'' using 0:2:(myLabel($2)) w labels offset 0,-0.5 notitle, \
+'' using 0:3:(myLabel($3)) w labels offset 0,1 notitle
+```
+
+Ce qui donne :
+![image_2](http://image.noelshack.com/fichiers/2019/36/3/1567604524-3880bceb0ab2fe97.jpg)
+
+Ici nous constatons deux courbes droites. Cela est dû au fait que les valeurs n'ont pas bougées entre le 2019-08-30 et le 2019-09-04.
 
