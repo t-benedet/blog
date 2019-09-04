@@ -215,8 +215,108 @@ plot "/usr/IBMAHS/htdocs/TEST.txt" using 2:xtic(1) with linespoints linestyle 1 
 '' using 0:3:(myLabel($3)) w labels offset 0,1 notitle
 ```
 
-Ce qui donne :
+&nbsp;
+#### __III - Mise en place de la page web pour le graphique :__
+
+Maintenant que notre script gnuplot est terminé, je vais mettre en place la page web qui va recevoir le graphique.
+
+Pour le moment, la page se résume à se code :
+```
+#!/bin/ksh
+
+echo "Content-type: text/html"
+echo ""
+
+echo '
+<html>
+        <head>
+                <meta http-equiv="Content-Type" content="test/html"; charset=UTF-8">
+                <title> AIX CGI </title>
+                <h1> AIX CGI <span style="margin-left:78%"> <font size=3> <a href="AIX.ksh">[ AIX \ </a><a href="OpenSUSE.ksh">OpenSUSE ] </a> </font> </span></h1>
+                <hr size="4" color="blue">
+                
+                <style>
+                         body{
+                         background-color: #eff1f0;
+                         font-family: 'IBM Plex Sans', sans-serif;
+                         }
+                        
+                         #current_stat{
+                         margin-right: 15%;
+                         margin-top: 2%;
+                         float: right;
+                         font-size: 20px;
+                         font-family: 'IBM Plex Sans', sans-serif;
+                         }      
+                        
+                         #image{
+                         margin-top: -2%;
+                         position: absolute;
+                         }
+ 
+                         #FS_title{
+                         margin-top: 3%;
+                         }
+                </style>
+        </head>
+<body>'
+
+read a
+
+FILESYSTEM=$( echo $a | cut -d'=' -f2 | sed 's/\%//g' | sed 's/2F/\//g' | cut -d '&' -f1)
+awk_value=$( echo $FILESYSTEM | cut -d'/' -f3)
+
+
+echo "<div id="FS_title"><h2> > FILESYSTEM : $FILESYSTEM </h2></div>"
+echo "<br>"
+
+#awk ' /'$awk_value'/ {split(FILENAME,a,"-");print a[2]"-"a[3]"-"a[4]","$2","$3}' /tim/df_log/df_command* > /usr/IBMAHS/htdocs/TEST.txt
+gnuplot gnuplot_line.txt
+
+echo "<PRE>"
+
+echo "<div id="current_stat">"
+echo "<h3> $FILESYSTEM current stat :</h3>"
+df -m | grep $FILESYSTEM | awk '{
+print "- MB Blocks : "$2" MB "
+print "- Free Space : "$3" MB "
+print "- Space Used : " $4
+print "- Mounted on : " $7
+}'
+
+echo "</div>"
+echo "</PRE>"
+
+echo '
+<img id="image" src="/test.png">
+</body>
+</html> '
+```
+
+__Quelques explications :__
+
+__1.__ 
+```
+read a
+
+FILESYSTEM=$( echo $a | cut -d'=' -f2 | sed 's/\%//g' | sed 's/2F/\//g' | cut -d '&' -f1)
+awk_value=$( echo $FILESYSTEM | cut -d'/' -f3)
+```
+
+- La ligne `read a` me permet de récupérer la querystring de la page d'index. C'est à dire la valeur séléctionnée par l'utilisateur dans un des menus déroulants.
+- La ligne avec la variable `FILESYSTEM` est simplement une ligne de formatage de la querystring. Au lieu d'avoir comme valeur `VALEUR=MA_VALEUR` je ne garde que `MA_VALEUR`
+
+__2.__
+
+
+
+&nbsp;
+### __IV - Vérification du fonctionnement de la page :__
+
+Si nous choisissons le filesystem hd4, voilà le graphique :
+
 ![image_2](http://image.noelshack.com/fichiers/2019/36/3/1567604524-3880bceb0ab2fe97.jpg)
 
 Ici nous constatons deux courbes droites. Cela est dû au fait que les valeurs n'ont pas bougées entre le 2019-08-30 et le 2019-09-04.
+
 
