@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C1.3.1.2 Tester le service ( CGI sous AIX 7.2 )
+title: C1.3.1.2 - Tester le service 
 ---
 
 Maintenant qu'Apache est installé et configuré, que Gnuplot est installé et mis à jour, je vais pouvoir me lancer dans conception de la CGI.
