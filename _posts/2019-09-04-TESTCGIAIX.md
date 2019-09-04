@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mise en place de la CGI sous AIX 7.2
+title: Mise en place de la CGI
 ---
 
 ### Mise en place de la CGI sous AIX 7.2
