@@ -26,6 +26,6 @@ permalink: /TP/
 
 • [Mise en place d'un DNS sous Windows Server]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
 
-• [Mise en place d'un DHCP primaire et secondaire sous debian]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
+• [Mise en place d'un DHCP primaire et secondaire]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
 
-• [Mise en place d'un DHCP primaire et secondaire sous Windows Server]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
+
