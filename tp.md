@@ -13,6 +13,13 @@ permalink: /TP/
 
 &nbsp;
 
+
+#### __Apprentissage du python :__
+
+• [Création d'un client et serveur en python]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
+
+&nbsp;
+
 #### __Mise en place de différents services sous Debian et Windows Server :__
 
 • [Mise en place d'un DNS sous debian]({{ site.baseurl }}{% post_url 2019-09-09-TPMORP %})
