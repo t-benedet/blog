@@ -1,5 +1,5 @@
 ---
 redirect_to: 
-  - https://timothee-benedet.github.io/online-cv/
+  - https://t-benedet.github.io/online-cv/
 title: Whoami
 ---
