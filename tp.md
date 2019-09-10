@@ -16,7 +16,7 @@ permalink: /TP/
 
 #### __Apprentissage du python :__
 
-• [Création d'un client et serveur en python]({{ site.baseurl }}{% post_url 2019-09-10-CLISERV %})
+• [Création en local d'un serveur et d'un client]({{ site.baseurl }}{% post_url 2019-09-10-CLISERV %})
 
 &nbsp;
 
