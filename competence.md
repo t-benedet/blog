@@ -44,4 +44,8 @@ permalink: /Compétences/
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
+| A5.2.2 Veille technologie | [C5.2.2.1 Définir une stratégie de recherche]() | <span style="color:red"><strong>0%</strong></span> |
+|| [C5.2.2.2 Tenir à jour une liste de sources d'information]() | <span style="color:red"><strong>0%</strong></span> |
+|| [C5.2.2.3 Évaluer la qualité d'une source d'information en ]() | <span style="color:red"><strong>0%</strong></span> |
+|| [C5.2.2.4 Synthétiser et diffuser les résultats d'une veille]() | <span style="color:red"><strong>0%</strong></span> |
 | A5.2.4 Étude d'une technologie, d'un composant, d'un outil ou d'une méthode | [C5.2.4.1 Se documenter à propos d'une technologie, d'un composant, d'un outil ou d'une méthode]() | <span style="color:red"><strong>0%</strong></span> |
