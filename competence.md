@@ -44,4 +44,4 @@ permalink: /Compétences/
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-| A5.2.4 Étude d'une technologie, d'un composant, d'un outil ou d'une méthode | [C5.2.4.1 Se documenter à propos d'une technologie, d'un composant, d'un outil ou d'une méthode] | <span style="color:red"><strong>0%</strong></span> |
+| A5.2.4 Étude d'une technologie, d'un composant, d'un outil ou d'une méthode | [C5.2.4.1 Se documenter à propos d'une technologie, d'un composant, d'un outil ou d'une méthode]() | <span style="color:red"><strong>0%</strong></span> |
