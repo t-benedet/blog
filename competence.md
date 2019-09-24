@@ -36,3 +36,12 @@ permalink: /Compétences/
 | [A4.2.2 Adaptation d’une solution applicative aux évolutions de ses composants]({{ site.baseurl }}{% post_url 2019-08-27-GNUPDATE %}) | C4.2.2.1 Repérer les évolutions des composants utilisés et leurs conséquences | <span style="color:green"><strong>100%</strong></span> |
 || C4.2.2.2 Concevoir les mises à jour à effectuer| <span style="color:green"><strong>100%</strong></span> |
 || C4.2.2.3 Élaborer et réaliser les tests unitaires des composants mis à jour| <span style="color:green"><strong>100%</strong></span> |
+
+
+&nbsp;
+
+#### __P5 - Gestion du patrimoine informatique - D5.2 - Gestion des compétences__
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+| A5.2.4 Étude d'une technologie, d'un composant, d'un outil ou d'une méthode | [C5.2.4.1 Se documenter à propos d'une technologie, d'un composant, d'un outil ou d'une méthode] | <span style="color:red"><strong>0%</strong></span> |
