@@ -47,6 +47,7 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 
 &nbsp;
 
+
 ### __Contexte :__
 
 Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant de reprendre ce que j'ai fais sur les serveurs de test AIX 7.2/SUSE pour l'appliquer aux serveurs de productions. Ce sera dnc de la récolte de  d'informations sur une centaines de serveurs.
@@ -61,7 +62,9 @@ Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant
 |[A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2019-08-28-CRONTAB %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
 || C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation| <span style="color:green"><strong>100%</strong></span> |
 
+
 &nbsp;
+
 
 ### __Contexte :__
 
