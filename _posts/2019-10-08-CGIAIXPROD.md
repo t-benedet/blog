@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TEST
+title: Récole d'informations sur serveur de production Loréal
 ---
 
 Comme pour la version test sur les serveurs u103/u104 AIX 7.2 et SUSE, il fallait mettre en place un script qui doit collecter des informations sur une centaine de serveurs ( AIX 7.2 et SUSE ). 
