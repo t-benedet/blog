@@ -48,7 +48,7 @@ Linux
 ```
 
 
-Ce script va looper sur un ensemble d'adresse IP appartenant à des serveurs AIX/Linux et se trouvant dans deux fichiers externes. Les deux fonctions vont looper sur un fichier __Linux__ et __AIX__. Chaque adresses sera conservée dans la variable __$i__ :
+Ce script va looper sur un ensemble d'adresse IP appartenant à des serveurs AIX/Linux et se trouvant dans deux fichiers externes :
 
 - `ping -q -c 1 -w 5 $i` ➔ On va pinger le contenu de __$i__, envoyer un seul paquet (__-c 1__), il s'arrêtera à partir de 5 secondes de timeout (__-w 5__) mais n'affichera pas le résultat du ping (__-q__).
 - `if [ $? -eq 0 ]` ➔ Si le renvoie de la commande est égal à 0
