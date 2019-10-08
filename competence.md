@@ -6,10 +6,10 @@ permalink: /Compétences/
 
 #### __Contexte :__
 
-&nbsp;
-
 Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur un serveur P7 d'IBM. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
+
+&nbsp;
 
 #### __P1 - Production de services - D1.3 - Mise en production d’un service__
 
@@ -20,8 +20,8 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 || [C1.3.1.2 Tester le service]({{ site.baseurl }}{% post_url 2019-09-05-TESTCGI %})|<span style="color:green"><strong>100%</strong></span> |
 || [C1.3.1.3 Rédiger le rapport de test]({{ site.baseurl }}{% post_url 2019-09-05-RAPPORT %}) |<span style="color:orange"><strong>50%</strong></span> |
 
-
 &nbsp;
+
 
 #### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
 
