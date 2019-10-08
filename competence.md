@@ -6,7 +6,7 @@ permalink: /Compétences/
 
 #### __Contexte :__
 
-Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur un serveur P7 d'IBM. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
+Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
 
 &nbsp;
