@@ -4,6 +4,13 @@ title: Compétences
 permalink: /Compétences/
 ---
 
+####__Contexte :__
+
+&nbsp;
+
+Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur un serveur P7 d'IBM. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
+
+
 #### __P1 - Production de services - D1.3 - Mise en production d’un service__
 
 
