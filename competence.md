@@ -4,7 +4,7 @@ title: Compétences
 permalink: /Compétences/
 ---
 
-#### __Contexte :__
+### __Contexte :__
 
 Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
@@ -47,6 +47,27 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 
 &nbsp;
 
+### __Contexte :__
+
+Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
+
+
+&nbsp;
+
+#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+|[A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2019-08-28-CRONTAB %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
+|| C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation| <span style="color:green"><strong>100%</strong></span> |
+
+
+&nbsp;
+
+### __Contexte :__
+
+Voici un récapitulatif des caractéristiques du serveur sur lequel j'ai travaillé :
+
 #### __P5 - Gestion du patrimoine informatique - D5.2 - Gestion des compétences__
 
 | Activité | Compétences | Réalisation |
@@ -56,3 +77,10 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 || [C5.2.2.3 Évaluer la qualité d'une source d'information en ]() | <span style="color:red"><strong>0%</strong></span> |
 || [C5.2.2.4 Synthétiser et diffuser les résultats d'une veille]() | <span style="color:red"><strong>0%</strong></span> |
 | A5.2.4 Étude d'une technologie, d'un composant, d'un outil ou d'une méthode | [C5.2.4.1 Se documenter à propos d'une technologie, d'un composant, d'un outil ou d'une méthode]() | <span style="color:red"><strong>0%</strong></span> |
+
+
+&nbsp;
+
+### __Contexte :__
+
+Articles réécris par mes soins dans le cadre de l'épreuve de veille technologique du BTS SIO. Je dos travailler sur __l'indentification sans mot de passe__.
