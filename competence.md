@@ -50,7 +50,7 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 
 ### __Contexte :__
 
-Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant de reprendre ce que j'ai fais sur les serveurs de test AIX 7.2/SUSE pour l'appliquer aux serveurs de productions. Ce sera dnc de la récolte de  d'informations sur une centaines de serveurs.
+Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant de reprendre ce que j'ai fait sur les serveurs de test AIX 7.2/SUSE pour l'appliquer aux serveurs de production. Ce sera donc de la récolte d'informations sur une centaine de serveurs.
 
 
 &nbsp;
@@ -68,7 +68,7 @@ Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant
 
 ### __Contexte :__
 
-Articles réécris par mes soins dans le cadre de l'épreuve de veille technologique du BTS SIO. Je dos travailler sur __l'indentification sans mot de passe__.
+Collecte d'informations en lien avec la cyberséurité et les pratiques sur les réseaux sociaux. IL y aura aussi des articles réécris par mes soins dans le cadre de l'épreuve de veille technologique du BTS SIO. Je dois travailler sur __l'indentification sans mot de passe__.
 
 &nbsp;
 
