@@ -23,7 +23,9 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 &nbsp;
 
 
-#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
+
+
+<span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure</strong></span>
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
@@ -36,7 +38,7 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 
 &nbsp;
 
-#### __P4 - Conception et maintenance de solutions applicatives - D4.2 - Maintenance d'une solution applicative__
+<span style="color:#0366d6"><strong>P4 - Conception et maintenance de solutions applicatives - D4.2 - Maintenance d'une solution applicative</strong></span>
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
@@ -55,7 +57,7 @@ Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant
 
 &nbsp;
 
-#### __P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure__
+<span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure</strong></span>
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
