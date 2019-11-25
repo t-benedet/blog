@@ -74,9 +74,11 @@ Création d'un wiki LOréal contenant des documents expliquant différents guide
 
 &nbsp;
 
+<span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure</strong></span>
+
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-|[A4.2.4 Mise à jour d’une documentation technique]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C4.2.4.1 Repérer les éléments de la documentation à mettre à jour| <span style="color:green"><strong>100%</strong></span> |
+|[A3.2.3 Mise à jour de la documentation technique d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C4.2.4.1 Repérer les éléments de la documentation à mettre à jour| <span style="color:green"><strong>100%</strong></span> |
 || C4.2.4.2 Mettre à jour une documentation | <span style="color:green"><strong>100%</strong></span> |
 
 
@@ -86,7 +88,10 @@ Création d'un wiki LOréal contenant des documents expliquant différents guide
 ### __Mission 4 : Création d'une maquette de serveur P9__
 
 Cette mission conciste à créer une maquette d'un serveur P9 via visio
+
 &nbsp;
+
+<span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.1 - Conception d’une solution d’infrastructure</strong></span>
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
