@@ -4,9 +4,9 @@ title: Compétences
 permalink: /Compétences/
 ---
 
-### __Contexte :__
+### __Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7__
 
-Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
+Ma première mission conciste à installer et configurer Apache et Gnuplo pour tester la mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
 
 &nbsp;
@@ -50,10 +50,9 @@ Installation et configuration d'Apache, Gnuplot et mise en place d'une CGI sous 
 &nbsp;
 
 
-### __Contexte :__
+### __Mission 2 : Mise en place de la CGI sur un serveur de production LOréal__
 
-Mise en place de la CGI sur les serveurs de production de Loréal. Le but étant de reprendre ce que j'ai fait sur les serveurs de test AIX 7.2/SUSE pour l'appliquer aux serveurs de production. Ce sera donc de la récolte d'informations sur une centaine de serveurs.
-
+La deuxième mission reprend l'essentiel de la première mission. Ce qui différencie les deux c'est le fait qu'ici, les manipulations seront faites sur des serveurs de production.
 
 &nbsp;
 
