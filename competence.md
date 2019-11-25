@@ -68,7 +68,11 @@ La deuxième mission reprend l'essentiel de la première mission. Ce qui différ
 &nbsp;
 
 
-### __Mission 3 : Création d'un wki pour le client LOréal__
+### __Mission 3 : Création d'un wiki pour le client LOréal__
+
+Création d'un wiki LOréal contenant des documents expliquant différents guides autour de l'écosystème LOréal.
+
+&nbsp;
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
