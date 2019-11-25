@@ -78,3 +78,16 @@ Création d'un wiki LOréal contenant des documents expliquant différents guide
 |----------|-------------|-------------|
 |[A4.2.4 Mise à jour d’une documentation technique]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C4.2.4.1 Repérer les éléments de la documentation à mettre à jour| <span style="color:green"><strong>100%</strong></span> |
 || C4.2.4.2 Mettre à jour une documentation | <span style="color:green"><strong>100%</strong></span> |
+
+
+&nbsp;
+
+
+### __Mission 4 : Création d'une maquette de serveur P9__
+
+Cette mission conciste à créer une maquette d'un serveur P9 via visio
+&nbsp;
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+|[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.1.2.1 Concevoir une maquette de la solution| <span style="color:green"><strong>100%</strong></span> |
