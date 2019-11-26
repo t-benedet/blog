@@ -70,7 +70,7 @@ La deuxième mission reprend l'essentiel de la première mission. Ce qui différ
 
 ### __Mission 3 : Création d'un wiki pour le client LOréal__
 
-Création d'un wiki LOréal contenant des documents expliquant différents guides autour de l'écosystème LOréal.
+Création d'un wiki LOréal contenant différents guides autour de l'écosystème LOréal.
 
 
 <span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure</strong></span>
@@ -86,7 +86,7 @@ Création d'un wiki LOréal contenant des documents expliquant différents guide
 
 ### __Mission 4 : Création d'une maquette de serveur P9__
 
-Cette mission conciste à créer une maquette d'un serveur P9 via visio
+Cette mission conciste à créer une maquette d'un serveur P9 en utilisant le logiciel visio.
 
 
 <span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.1 - Conception d’une solution d’infrastructure</strong></span>
