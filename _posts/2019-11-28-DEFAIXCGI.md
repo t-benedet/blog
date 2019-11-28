@@ -118,41 +118,84 @@ La deuxième partie, pour Linux, est identique à la partie AIX. Seule les valeu
 
 Maintenant que ma page d'accueil est faite, je vais m'attaquer au script Gnuplot. Pour suivre une évolution, il est préférable d'utiliser un graphiques fait de courbes plutôt qu'un histogramme. 
 
-On commence par définir un titre pour le graphique, ses caractéristiques graphiques, l'endroit où devra être généré l'image le style de ligne et point qui sera utilisé : 
+On commence par définir un titre pour le graphique, ses caractéristiques graphiques, l'endroit où devra être généré l'image, la taille les labels pour les différentes axes etc... : 
 ```
-set title "df -m command test" font ",14"
-set terminal pngcairo truecolor size 1250, 500  background rgb "#eff1f0" font "Arial"
-set output "/usr/IBMAHS/htdocs/test.png"
-set style line 1 \
-    linecolor rgb '#0060ad' \
-    linetype 1 linewidth 1 \
-    pointtype 7 pointsize 1
+set terminal png truecolor size 1950, 650  background rgb "#eff1f0" 
+set output "/var/IBMtools/www/tim/TEST.png"
+set datafile separator ';'
 
-set style line 2 \
-    linecolor rgb "red" \
-    linetype 1 linewidth 1 \
-    pointtype 7 pointsize 1
-```
-&nbsp;
-Ensuite on définir les caractéristiques pures du graphique, tout ce qui écart entre les éléments des axes x et y, l'emplacement de la légende, les titres des axes, comment seront affichés les différentes valeurs des axes ou encore le séparateur présent le fichier contenant les informations utiles pour la création du graphiques :
-```
 set size ratio 0.2
-set offsets 0.5,0.5,0,0.5
-set key horizontal outside bottom center
-set datafile separator ","
-set ylabel " MB BLOCK " font ",14" offset -1,0
-set xlabel " Date " font ",14" 
-set xtics rotate by 45 offset -0.8,-1.8
-set format y "%g"
-myLabel(n) = sprintf("%g",n)
+set bmargin at screen 0.2
+set key outside horizontal 
+set datafile separator ";"
+set ylabel " MB BLOCK " font ",10" offset -1,0
+set xlabel font ",10"
+set xtics rotate by 45  offset -0.8,-9,-1.8
+
 ```
 &nbsp;
-Enfin, on définit le fichier où se trouve les informations nécessaires, on précise que dans notre fichier, la deuxième colonne sera l'axe y et se basera sur la première colonne qui elle, sera l'axe x. On défini ensuite le style de graphique :
+Ensuite on définit les différents styles de lignes et puces qui seront utilisées par les courbes :
+
 ```
-plot "/usr/IBMAHS/htdocs/TEST.txt" using 2:xtic(1) with linespoints linestyle 1 title "MB used", \
-'' using 3:xtic(1) with linespoints linestyle 2 title " Free space ", \
-'' using 0:2:(myLabel($2)) w labels offset 0,-0.5 notitle, \
-'' using 0:3:(myLabel($3)) w labels offset 0,1 notitle
+et style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 2 linecolor rgb '#e50073' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 3 linecolor rgb '#ea5b0c' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 4 linecolor rgb '#4f328a' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 5 linecolor rgb '#00a49f' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 6 linecolor rgb '#b4cc04' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 7 linecolor rgb '#00aee7' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 8 linecolor rgb '#0069b4' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 9 linecolor rgb '#7f3089' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 10 linecolor rgb '#b51865' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 11 linecolor rgb '#6f1a16' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 12 linecolor rgb '#ffd5c0' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 13 linecolor rgb '#c0cbff' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 14 linecolor rgb '#9a542e' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 15 linecolor rgb '#5c8096' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 16 linecolor rgb '#fcd116' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 17 linecolor rgb '#336633' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 18 linecolor rgb '#b0be40' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 19 linecolor rgb '#570df1' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 20 linecolor rgb '#e19221' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 21 linecolor rgb '#cb5c52' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 22 linecolor rgb '#90a775' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 23 linecolor rgb '#9463d4' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 24 linecolor rgb '#bc0200' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 25 linecolor rgb '#94789a' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+set style line 26 linecolor rgb '#3b23b0' linetype 1 linewidth 2 pointtype 7 pointsize 1.
+set style line 26 linecolor rgb '#fb979c'linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+
+```
+&nbsp;
+Enfin, on définit le repertoire où se trouve les informations nécessaires, on précise que dans notre fichier, la troisième colonne sera l'axe y et se basera sur la première colonne qui elle, sera l'axe x. On défini ensuite le style de graphique. Il est nécessaire de faire ça pour chaques courbes :
+```
+plot "/opt/IBMtools/cgi-bin/tim/data/dooncelv.txt" using 3:xtic(1) title column(2) with linespoints linestyle 1, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd10opt.txt" using 3:xtic(1) title column(2) with linespoints linestyle 2, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd11admin.txt" using 3:xtic(1) title column(2) with linespoints linestyle 3, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd1.txt" using 3:xtic(1) title column(2) with linespoints linestyle 4, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd2.txt" using 3:xtic(1) title column(2) with linespoints linestyle 5, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd3.txt" using 3:xtic(1) title column(2) with linespoints linestyle 6, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd4.txt" using 3:xtic(1) title column(2) with linespoints linestyle 7, \
+     "/opt/IBMtools/cgi-bin/tim/data/hd9var.txt" using 3:xtic(1) title column(2) with linespoints linestyle 8, \
+     "/opt/IBMtools/cgi-bin/tim/data/livedump.txt" using 3:xtic(1) title column(2) with linespoints linestyle 9, \
+     "/opt/IBMtools/cgi-bin/tim/data/lsDB2pp_01.txt" using 3:xtic(1) title column(2) with linespoints linestyle 10, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvaudit.txt" using 3:xtic(1) title column(2) with linespoints linestyle 11, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvbes.txt" using 3:xtic(1) title column(2) with linespoints linestyle 12, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvesm.txt" using 3:xtic(1) title column(2) with linespoints linestyle 13, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvetctivoli.txt" using 3:xtic(1) title column(2) with linespoints linestyle 14, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvexploit.txt" using 3:xtic(1) title column(2) with linespoints linestyle 15, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvitmlogTWS.txt" using 3:xtic(1) title column(2) with linespoints linestyle 16, \
+     "/opt/IBMtools/cgi-bin/tim/data/lv_itmlog.txt" using 3:xtic(1) title column(2) with linespoints linestyle 17, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvitmTWS.txt" using 3:xtic(1) title column(2) with linespoints linestyle 18, \
+     "/opt/IBMtools/cgi-bin/tim/data/lv_itm.txt" using 3:xtic(1) title column(2) with linespoints linestyle 19, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvsrm.txt" using 3:xtic(1) title column(2) with linespoints linestyle 20, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvsyslog.txt" using 3:xtic(1) title column(2) with linespoints linestyle 21, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvtivoliepA.txt" using 3:xtic(1) title column(2) with linespoints linestyle 22, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvtivoli.txt" using 3:xtic(1) title column(2) with linespoints linestyle 23, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvtws.txt" using 3:xtic(1) title column(2) with linespoints linestyle 24, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvusrha.txt" using 3:xtic(1) title column(2) with linespoints linestyle 25, \
+     "/opt/IBMtools/cgi-bin/tim/data/lvvarha.txt" using 3:xtic(1) title column(2) with linespoints linestyle 26
+
 ```
 
 &nbsp;
