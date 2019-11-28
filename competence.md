@@ -60,6 +60,7 @@ La deuxième mission reprend l'essentiel de la première mission. Ce qui différ
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
+| A3.2.1 Installation et configuration d’éléments d’infrastructure | [[C3.2.1.2 Installer et configurer un élément d’infrastructure permettant d’assurer la continuité de service, un système de régulation des éléments d’infrastructure, un outil de métrologie, un dispositif d’alerte]({{ site.baseurl }}{% post_url 2019-09-05-CGIAIX %}) | <span style="color:green"><strong>100%</strong></span> |
 |[A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
 || C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation| <span style="color:green"><strong>100%</strong></span> |
 
