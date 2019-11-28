@@ -110,3 +110,13 @@ done
 AIX
 Linux
 ```
+
+Comme pour la première version, ce script loop sur le même fichier contenant la liste des serveurs avec leur __IP__ et leur __hostname__. Voici ce qui a été modifié :
+
+Pour la partie AIX :
+
+- Création de deux variables : __ip_serv__ et __name_serv__. La première variable contient l'adresse IP du serveur, la deuxième son nom.
+- Modification de l'output du ping sur le serveur. On n'affiche pas le ping, on arrête le ping au premier paquet reçu/envoyé, on ajoute un timeaout de 3 secondes et on bloque l'affichage des messages d'erreurs en redirigeant le canal 1 vers __/dev/null__.
+- Modification de la connection en ssh. Maintenant on se connecte via l'adresse IP qui se trouve dans la variable __ip_serv__, on ajoute la variable __date__ au __awk__, on ne garde que les lignes qui contiennent le mot _dev_ et on affiche les colonnes 1 et 2 , la troisième colonne sera le résultat de la soustraction entre les valeurs se contenant dans les colonnes 2 et 3. Enfin, on affiche la colonne 7. Le résultat sera envoyé dans le repertoire __AIX__ avec comme nom le nom du serveur + la date de création du fichier.
+
+Les modifications apportées sont les mêmes pour la partie Linux.
