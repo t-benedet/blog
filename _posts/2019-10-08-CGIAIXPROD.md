@@ -59,7 +59,9 @@ Ce script va looper sur un ensemble d'adresse IP appartenant à des serveurs AIX
 
 Ce scipt sera ensuite mis dans la crontab du user __ibmssh__ et sera exécuté, pour le moment, tous les jours à 5h du matin.
 
-Upgrade du 28 Novembre 2019 :
+&nbsp;
+
+### __Upgrade du 28 Novembre 2019 :__
 
 Voici le script qui tourne actuellement sur le serveur LOréal u100 et qui collecte le résultat de la commande __df -m__ sur 99 serveurs. Cette collecte se fait 3 fois par jour, une fois à 6h du matin, une fois à 12h et une dernière fois à 18h.
 
