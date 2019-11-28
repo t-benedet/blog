@@ -123,9 +123,9 @@ Les modifications apportées sont les mêmes pour la partie Linux.
 
 Résultat de la collecte sous pour les serveurs AIX :
 
-[image_1]!(https://zupimages.net/up/19/48/sbub.png)
+![image_1](https://zupimages.net/up/19/48/sbub.png)
 
 
 Résultat de la collecte sous pour les serveurs LINUX :
 
-[image_2]!(https://zupimages.net/up/19/48/ckxt.png)
+![image_2](https://zupimages.net/up/19/48/ckxt.png)
