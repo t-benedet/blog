@@ -59,7 +59,7 @@ Apache est mainteant installé.
 
 &nbsp;
 ### __Update du 05 Septembre 2019 :__
-I
+
 Suite à une manipulation sur le serveur de test AIX 7.2 u103, le service __apache/httpd__ n'était pas lancé. La commande `apachectl start` façon linux ne fonctionne pas. Après quelques minutes de recherche, il faut finalement lancer le script `./apachectl`. Donc pour se faire on se rend dans le repertoire `/usr/IBMAHS/bin` puis on tape `./apachectl start`. Le service __apache/httpd__ redémarre.
 
 
