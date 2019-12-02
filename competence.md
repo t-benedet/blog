@@ -95,3 +95,20 @@ Cette mission conciste à créer une maquette d'un serveur P9 en utilisant le lo
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
 |[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.1.2.1 Concevoir une maquette de la solution| <span style="color:green"><strong>100%</strong></span> |
+
+
+
+&nbsp;
+
+
+### __Mission 5 : Remplacement de TSM et export NFS pour le compte de Malakoff-Médéric Humanis__
+
+Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent XXXX. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS et de remplacer les agents.
+
+
+<span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.1 - Conception d’une solution d’infrastructure</strong></span>
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+|[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.1.2.1 Concevoir une maquette de la solution| <span style="color:green"><strong>100%</strong></span> |
+
