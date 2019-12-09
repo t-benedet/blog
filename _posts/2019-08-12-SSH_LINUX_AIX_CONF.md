@@ -112,7 +112,7 @@ Pour la SUSE :
 
 Pour le serveur u104 :
 
-![image_5](/pictures/u104_hostname.png
+![image_5](/pictures/u104_hostname.png)
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
