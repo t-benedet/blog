@@ -112,7 +112,7 @@ Pour la SUSE :
 
 Pour le serveur u104 :
 
-![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/u103_u104.png
+![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/u103_u104.png)
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
