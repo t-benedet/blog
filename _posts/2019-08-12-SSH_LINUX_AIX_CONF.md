@@ -40,7 +40,7 @@ ssh-keygen -t rsa
 
 Cette commande va générer automatiquement une clé privée et une clé publique en créant dans le repertoire où vous vous trouvez ( /home/tbenedet/ pour moi ) , un sous-repertoire caché /.ssh. Si nous nous y déplaçons, nous pouvons constater la création des deux clés : id_rsa et id_rsa_pub
 
-![image_1](pictures/cle_rsa_ok.png)
+![image_1](/pictures/cle_rsa_ok.png)
 
 
 La création de nos clés maintenant terminée, nous allons partager notre clé publique sur les serveurs u104 et OpenSuse.
