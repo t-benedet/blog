@@ -40,7 +40,7 @@ ssh-keygen -t rsa
 
 Cette commande va générer automatiquement une clé privée et une clé publique en créant dans le repertoire où vous vous trouvez ( /home/tbenedet/ pour moi ) , un sous-repertoire caché /.ssh. Si nous nous y déplaçons, nous pouvons constater la création des deux clés : id_rsa et id_rsa_pub
 
-![image_1](/pictures/cle_rsa_ok.png)
+![image_1](https://github.com/t-benedet/blog/blob/gh-pages/pictures/cle_rsa_ok.png)
 
 
 La création de nos clés maintenant terminée, nous allons partager notre clé publique sur les serveurs u104 et OpenSuse.
@@ -94,11 +94,11 @@ Il n'y a plus qu'à y mettre note clé, à enregistrer et quitter.
 
 On se reconnecte sur u103 et on essaie de se connecter à u104 en ssh :
 
-![image_2](/pictures/u103_u104.png)
+![image_2](https://github.com/t-benedet/blog/blob/gh-pages/pictures/u103_u104.png)
 
 Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur SUSE via u103 :
 
-![image_3](/pictures/u103_suse.png)
+![image_3](https://github.com/t-benedet/blog/blob/gh-pages/pictures/u103_suse.png)
 
 La connection aux deux serveurs via le serveur u103 fonctionne parfaitement. Les deux clés RSA ont donc bien été prises en compte. 
 &nbsp;
@@ -107,12 +107,12 @@ Maintenant, il nous est possible de faire passer quelques commandes depuis u103 
 
 Pour la SUSE :
 
-![image_4](/pictures/suse_hostname.png)
+![image_4](https://github.com/t-benedet/blog/blob/gh-pages/pictures/suse_hostname.png)
 
 
 Pour le serveur u104 :
 
-![image_5](/pictures/u104_hostname.png)
+![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/u103_u104.png
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
