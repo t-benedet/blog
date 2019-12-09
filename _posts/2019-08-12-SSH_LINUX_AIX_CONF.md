@@ -94,11 +94,11 @@ Il n'y a plus qu'à y mettre note clé, à enregistrer et quitter.
 
 On se reconnecte sur u103 et on essaie de se connecter à u104 en ssh :
 
-![image_2](https://image.noelshack.com/fichiers/2019/29/4/1563441469-ffff.jpg)
+![image_2](/pictures/u103_u104.png)
 
 Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur SUSE via u103 :
 
-![image_3](https://image.noelshack.com/fichiers/2019/29/4/1563441616-9.png)
+![image_3](/pictures/u103_suse.png)
 
 La connection aux deux serveurs via le serveur u103 fonctionne parfaitement. Les deux clés RSA ont donc bien été prises en compte. 
 &nbsp;
@@ -107,12 +107,12 @@ Maintenant, il nous est possible de faire passer quelques commandes depuis u103 
 
 Pour la SUSE :
 
-![image_4](https://image.noelshack.com/fichiers/2019/29/4/1563441770-10.png)
+![image_4](/pictures/suse_hostname.png)
 
 
 Pour le serveur u104 :
 
-![image_5](https://image.noelshack.com/fichiers/2019/29/4/1563441890-12.png)
+![image_5](/pictures/u104_hostname.png
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
