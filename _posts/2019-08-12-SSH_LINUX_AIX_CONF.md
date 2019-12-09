@@ -122,7 +122,7 @@ Pour le serveur u104 :
 
 Afin de pouvoir passer certaines commandes en remote sur les serveurs __u104__ et __SUSE__ via ma CGI, il était nécessaire de créer un __/home__ pour le user lançant apache. Ce user étant __nobody__ je suis passé via __smitty__ pour lui créer un __/home__ puis il suffisait de taper ` mkdir nobody` dans le __/home__ pour avoir notre repertoire :
 
-![image_6](https://image.noelshack.com/fichiers/2019/36/1/1567429434-apache-rsa.jpg)
+![image_6](/pictures/nobody.jpg)
 
 J'ai ensuite modifié les droits du repertoire créé avec la commande `chown nobody:nobody nobody` afin que le user qui execute apache puisse écrire dans le repertoire. Ensuite, dans ce repertoire, j'ai du créer le sous repertoire __.ssh__ et y générer une clé RSA grâce à la commande `ssh-keygen -t rsa`. Une fois la clé générée, je l'ai simplement collé dans le fichier __authorized_keys__ de mon user. Cela permet de à Apache de passer sur mon user pour executer certaines ocmmandes sans avoir à entrer le mot de passe.
 
@@ -132,7 +132,7 @@ ssh tbenedet@u103 "ssh 192.168.7.199 df -m "
 ```
 Ce qui donne :
 
-![image_7](https://image.noelshack.com/fichiers/2019/36/1/1567431873-rsa-suse.jpg)
+![image_7](/pictures/RSA_SUSE.jpg)
 
 ON voit bien le retour de la commande `df -m`. Le user __nobody__ passe d'abord sur le user __tbenedet__ pour ensuite executer la commander `df -m` sur le serveur SUSE.
 
