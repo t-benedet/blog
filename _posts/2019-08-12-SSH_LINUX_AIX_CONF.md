@@ -94,7 +94,7 @@ Il n'y a plus qu'à y mettre note clé, à enregistrer et quitter.
 
 On se reconnecte sur u103 et on essaie de se connecter à u104 en ssh :
 
-![image_2](https://github.com/t-benedet/blog/blob/gh-pages/pictures/RSA/u103_u104.png?raw=true)
+![image_2](https://github.com/t-benedet/blog/blob/gh-pages/pictures/RSA/u103_u104.png.jpg?raw=true)
 
 Ici, ça fonctionne parfaitement. On essaie de se connecter au serveur SUSE via u103 :
 
@@ -112,7 +112,7 @@ Pour la SUSE :
 
 Pour le serveur u104 :
 
-![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/RSA/u103_u104.png?raw=true)
+![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/RSA/u104_hostname.png?raw=true)
 
 &nbsp;
 &nbsp;Cette étape préliminaire est maintenant terminée.
