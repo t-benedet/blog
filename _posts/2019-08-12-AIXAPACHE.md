@@ -16,27 +16,25 @@ Smitty install
 ```
 Et voilà ce qui apparait :
 
-![image_1](http://image.noelshack.com/fichiers/2019/29/5/1563522628-1.png)
+![image_1](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/1.png?raw=true)
 
 On séléctionne ma première option __Install and Update Software__ :
 
-![image_2](http://image.noelshack.com/fichiers/2019/29/5/1563522693-2.png)
+![image_2](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/2.png?raw=true)
 
 On séléctionne __Install Sofirware__ et dans `INPUT devive / directory for software` on met un `.`, indiquant ainsi à __Smitty__ que le directory à utiliser le directory dans lequel nous nous trouvons :
 
-![image_3](http://image.noelshack.com/fichiers/2019/29/5/1563522902-3.png)
+![image_3](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/3.png?raw=true)
 
 Ensuite, il suffit d'appuyer sur entrer pour attérir sur la page qui va nous permettre de choisir le paquet à installer :
 
-![image_4](http://image.noelshack.com/fichiers/2019/29/5/1563523038-4.png)
+![image_4](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/4.png?raw=true)
 
 Plusieurs options s'offrent à nous. Nous choisisson l'option `Software to install` :
 
-![image_5](http://image.noelshack.com/fichiers/2019/29/5/1563523524-5.png)
+![image_5](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/6.png?raw=true)
 
 Un catalogue des applications déjà présente s'ouvre. On voit que si on tape `/`, comme sur `Vi` ou `Vim`, on peut chercher un mot. Le paquet qui nous intéresse est le paquet httpd, on tape donc `/httpd` :
-
-![image_6](http://image.noelshack.com/fichiers/2019/29/5/1563523718-6.png)
 
 Plusieurs paquets sont disponibles :
 
@@ -47,11 +45,11 @@ Plusieurs paquets sont disponibles :
 &nbsp;
 On séléctionne d'abord `httpd.base` en tapant sur F7 et on voit que notre paquet __httpd.base__ s'est ajouté sur la ligne __SOFTWARE to install__:
 
-![image_7](http://image.noelshack.com/fichiers/2019/29/5/1563523826-7.png)
+![image_6](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/7.png?raw=true)
 
 Puis on tape sur entrer pour lancer l'installation :
 
-![image_8](http://image.noelshack.com/fichiers/2019/29/5/1563523928-9.png)
+![image_8](https://github.com/t-benedet/blog/blob/gh-pages/pictures/Apache_u103/9.png?raw=true)
 
 On aurait pu installer directement les 3 paquets httpd. Sur le coup nous n'avons pas jugé cela nécessaire. Mais nous décidons finalement de les installer. On réitère donc la même opéréation pour les paquets httpd.licence et httpd.man.en-US
 
