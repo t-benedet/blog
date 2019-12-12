@@ -101,12 +101,29 @@ Cette mission conciste à créer une maquette d'un serveur P9 en utilisant le lo
 &nbsp;
 
 
-### __Mission 5 : Remplacement de TSM et export NFS pour le compte de Malakoff-Médéric Humanis__
+### __Mission 5 : Remplacement de TSM par AVAMAR et export NFS pour le compte de Malakoff-Médéric Humanis__
+
+__TSM :__  __T__ ivoli __S__ torage __M__ anager, par IBM.
+__Avamar :__ Par DelL.
 
 Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent XXXX. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
 
 
 <span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.1 - Conception d’une solution d’infrastructure</strong></span>
+
+| Activité | Compétences | Réalisation |
+|----------|-------------|-------------|
+|[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.1.2.1 Concevoir une maquette de la solution| <span style="color:green"><strong>100%</strong></span> |
+
+
+
+&nbsp;
+
+
+### __Mission 6 : Ajout d'une nouvelle paire de disques à un VG mirroré sur LOréal Wise AIX__
+
+Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenter l'espace disponible du FS en y intégrant une nouvelle paire de disques.
+
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
