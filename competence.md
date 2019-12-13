@@ -5,7 +5,7 @@ permalink: /Compétences/
 ---
 <span><h2> Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7 </h2></span>
 
-### __Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7__
+<span><strong>[Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7]({{ site.baseurl }}{% post_url 2019-12-13-MISSION1 %})</strong></span>
 
 Ma première mission conciste à installer et configurer Apache et Gnuplot pour tester la mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
