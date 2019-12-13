@@ -26,7 +26,7 @@ Création d'un wiki LOréal contenant différents guides autour de l'écosystèm
 &nbsp;
 
 
-<span><strong>[Mission 4 : Création d'une maquette de serveur P9]({{ site.baseurl }}{% post_url 2019-12-13-MISSION4 %})</strong></span>
+<span><strong>[Mission 4 : Création d'une maquette des serveurs P7, P8 et P9]({{ site.baseurl }}{% post_url 2019-12-13-MISSION4 %})</strong></span>
 
 Cette mission conciste à créer des maquettes sous visio des serveurs P7, P8 et P9 qu'utilise LOréal.
 
