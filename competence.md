@@ -39,7 +39,7 @@ Cette mission conciste à créer des maquettes sous visio des serveurs P7, P8 et
 __TSM__ : __T__ ivoli __S__ torage __M__ anager, par IBM.
 __Avamar :__ Par DelL.
 
-Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent XXXX. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
+Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent Avamar. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
 
 
 &nbsp;
