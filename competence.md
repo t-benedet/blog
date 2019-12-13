@@ -17,21 +17,18 @@ Ma première mission conciste à installer et configurer Apache et Gnuplot pour 
 
 La deuxième mission reprend l'essentiel de la première mission. Ce qui différencie les deux c'est le fait qu'ici, les manipulations seront faites sur des serveurs de production. Une collecte sera faite automatiquement tous les jours à 6h,12h et 18h afin de recolter le plus de données possibles ( resultat de la commande __df__ ) sur 99 serveurs. 
 
+<span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION2 %})
+</strong></span>
 
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION2 %})
-
-
-
-&nbsp;
 
 
 ### __Mission 3 : Création d'un wiki pour le client LOréal__
 
 Création d'un wiki LOréal contenant différents guides autour de l'écosystème LOréal.
 
+<span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION3 %})
+</strong></span>
 
-
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION3 %})
 
 
 &nbsp;
@@ -43,7 +40,8 @@ Cette mission conciste à créer une maquette d'un serveur P9 en utilisant le lo
 
 
 
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION4 %})
+<span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION4 %})
+</strong></span>
 
 
 
@@ -52,13 +50,12 @@ Cette mission conciste à créer une maquette d'un serveur P9 en utilisant le lo
 
 ### __Mission 5 : Remplacement de TSM par AVAMAR et export NFS pour le compte de Malakoff-Médéric Humanis__
 
-__TSM :__  __T__ ivoli __S__ torage __M__ anager, par IBM.
+__TSM__ : __T__ ivoli __S__ torage __M__ anager, par IBM.
 __Avamar :__ Par DelL.
 
 Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent XXXX. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
-
-
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION5 %})
+<span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION5 %})
+</strong></span>
 
 
 
@@ -69,6 +66,7 @@ Cette mission est un peu problématique puisque certains serveurs de Malakoff M�
 
 Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenter l'espace disponible du FS en y intégrant une nouvelle paire de disques.
 
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})
+<span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})
+</strong></span>
 
 
