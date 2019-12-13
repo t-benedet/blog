@@ -20,6 +20,7 @@ La deuxième mission reprend l'essentiel de la première mission. Ce qui différ
 <span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION2 %})
 </strong></span>
 
+&nbsp;
 
 
 ### __Mission 3 : Création d'un wiki pour le client LOréal__
@@ -28,7 +29,6 @@ Création d'un wiki LOréal contenant différents guides autour de l'écosystèm
 
 <span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION3 %})
 </strong></span>
-
 
 
 &nbsp;
@@ -54,6 +54,7 @@ __TSM__ : __T__ ivoli __S__ torage __M__ anager, par IBM.
 __Avamar :__ Par DelL.
 
 Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent XXXX. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
+
 <span style="color:#069ca4"><strong>[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION5 %})
 </strong></span>
 
