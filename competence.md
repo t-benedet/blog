@@ -9,7 +9,9 @@ permalink: /Compétences/
 Ma première mission conciste à installer et configurer Apache et Gnuplot pour tester la mise en place d'une CGI sous AIX 7.2 sur serveur P7. Cette CGI permettra également de récupérer de l'information sur un serveur SUSE.
 
 
-[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION1 %})
+
+
+<span style="color:#0366d6"><strong>P[> Liste des compétences]({{ site.baseurl }}{% post_url 2019-12-13-MISSION1 %})</strong></span>
 
 &nbsp;
 
