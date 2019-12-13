@@ -124,7 +124,7 @@ Cette mission est un peu problématique puisque certains serveurs de Malakoff M�
 
 Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenter l'espace disponible du FS en y intégrant une nouvelle paire de disques.
 
-[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %})
+[A3.1.2 Maquettage et prototypage d’une solution d’infrastructure]({{ site.baseurl }}{% post_url MISSION6 %})
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
