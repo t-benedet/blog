@@ -3,6 +3,7 @@ layout: default
 title: Compétences
 permalink: /Compétences/
 ---
+<span><h2> Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7 </h2></span>
 
 ### __Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7__
 
