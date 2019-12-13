@@ -2,10 +2,6 @@
 layout: post
 title: Mission 3
 ---
-### __Mission 3 : Création d'un wiki pour le client LOréal__
-
-Création d'un wiki LOréal contenant différents guides autour de l'écosystème LOréal.
-
 
 <span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d’infrastructure - D3.2 - Installation d’une solution d’infrastructure</strong></span>
 
