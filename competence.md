@@ -56,14 +56,12 @@ Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la
 
 <br/>
 <br/>
+<br/>
 <h2>Compétences acquises chez IBM :</h2>
 <hr />
 
 <br />
 <br />
-
-&nbsp;
-
 
 <span><strong>▪ [Mission 6 : Ajout d'une nouvelle paire de disques à un VG mirroré sur LOréal Wise AIX]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
 
