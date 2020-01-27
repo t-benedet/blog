@@ -63,6 +63,11 @@ Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la
 <br />
 <br />
 
-<span><strong>▪ [Mission 6 : Ajout d'une nouvelle paire de disques à un VG mirroré sur LOréal Wise AIX]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
+<span><strong>▪ [Mission 2 : Mise en place d'un domaine et découpage du réseau]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPE %})</strong></span>
 
-Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenté l'espace disponible du FS en y intégrant une nouvelle paire de disques.
+Cette mission se décompose en plusieurs parties : 
+- Réalisation d'un plan détaillé sous visio.
+- Réalisation d'une notice technique sur la mise en place des vlan.
+- Réalisation d'une notice technique sur la sauvegarde externe des configurations switchs et routers.
+- Réalisation d'un document récapitulatif sur les GPO utilisées, des scripts utilisés et des configurations particulières réalisées sur les différents services.
+
