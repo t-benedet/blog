@@ -4,9 +4,10 @@ title: Compétences
 permalink: /Compétences/
 ---
 
-<h2>Compétences acquises ches IBM :</h2>
+<h2>Compétences acquises chez IBM :</h2>
 <hr />
 
+<br/>
 <br/>
 <span><strong>▪ [Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7]({{ site.baseurl }}{% post_url 2019-12-13-MISSION1 %})</strong></span>
 
@@ -45,6 +46,21 @@ __Avamar :__ Par DelL.
 
 Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent Avamar. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
 
+
+&nbsp;
+
+
+<span><strong>▪ [Mission 6 : Ajout d'une nouvelle paire de disques à un VG mirroré sur LOréal Wise AIX]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
+
+Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenté l'espace disponible du FS en y intégrant une nouvelle paire de disques.
+
+<br/>
+<br/>
+<h2>Compétences acquises chez IBM :</h2>
+<hr />
+
+<br />
+<br />
 
 &nbsp;
 
