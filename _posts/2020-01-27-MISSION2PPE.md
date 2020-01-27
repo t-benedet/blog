@@ -20,8 +20,8 @@ Je me suis occupé de la partie sauvegarde des configurations des switchs et rou
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-| A1.3.2 Définition des éléments nécessaires à la continuité d'un service | [C1.3.1.1 Identifier les éléments à sauvegarder et à journaliser pour assurer la continuité du service et la traçabilité des transactions.]({{ site.baseurl }}{% post_url 2019-11-28-MISSION2PPE %}) | <span style="color:green"><strong>100%</strong></span> |
-|[A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2019-10-08-CGIAIXPROD %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
+| A1.3.2 Définition des éléments nécessaires à la continuité d'un service | [C1.3.1.1 Identifier les éléments à sauvegarder et à journaliser pour assurer la continuité du service et la traçabilité des transactions.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
+|[A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPEPYTHON %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
 || C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation| <span style="color:green"><strong>100%</strong></span> |
 
 
