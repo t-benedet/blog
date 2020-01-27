@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Mission 2 - Mise en place d'un domaine et découpage du réseau
+title: Mission 2
 ---
+
+###__ - Mise en place d'un domaine et découpage du réseau__
 
 Je me suis occupé de la partie sauvegarde des configurations des switchs et routers. La mise en place d'un __serveur tftp__ ( fait par thomas ) est nécessaire. La sauvegarde des configuratiosn en cours sur le matériel est maintenant automatisé par un script python réalisé par mes soins.
 
