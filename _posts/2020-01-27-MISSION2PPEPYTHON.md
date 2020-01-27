@@ -19,11 +19,11 @@ filename = 'test1.bin'
 
 # Switch connection configuration :
 rubis = {
-'device_type': 'cisco_ios',
-'ip': 'xxx.xxx.xxx.xxx',
-'password': 'xxxxxxxx',
-'secret': 'xxxxxxxx',
-# 'global_delay_factor': 2,
+    'device_type': 'cisco_ios',
+    'ip': 'xxx.xxx.xxx.xxx',
+    'password': 'xxxxxxxx',
+    'secret': 'xxxxxxxx',
+  # 'global_delay_factor': 2,
 }
 
 net_connect = ConnectHandler(**rubis)
@@ -32,10 +32,9 @@ net_connect.enable()
 cmd = 'copy start tftp://'+tftp_server+'/'+tftp_folder1+'/'+tftp_folder2+'/'+filename
 
 output = net_connect.send_command(
-cmd,
-expect_string=r'Address or name of remote host [xxx.xxx.xxx.xxx]?'
+    cmd,
+    expect_string=r'Address or name of remote host [xxx.xxx.xxx.xxx]?'
 )
-
 
 output += net_connect.send_command('\n', expect_string=r'Destination filename [TEST/SAVE/test1.bin]?')
 output += net_connect.send_command('\n', expect_string=r'#')
