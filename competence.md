@@ -72,3 +72,14 @@ Cette mission se décompose en plusieurs parties :
 - Réalisation d'une notice technique sur la sauvegarde externe des configurations switchs et routers.
 - Réalisation d'un document récapitulatif sur les GPO utilisées, des scripts utilisés et des configurations particulières réalisées sur les différents services.
 
+
+&nbsp;
+
+
+<span><strong>▪ [Mission 3 : Haute disponibilité de l'infrastrucure]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
+
+Plusieurs missions :
+
+- Réalisation d'un schéma du réseau.
+- Réalisation d'un plan d'adressage IP.
+- Réalisation d'un plan de répartition des ports.
