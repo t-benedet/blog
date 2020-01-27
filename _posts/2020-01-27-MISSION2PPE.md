@@ -5,13 +5,6 @@ title: Mission 2
 
 ### __Mission 2 : Mise en place d'un domaine et découpage du réseau__
 
-Cette mission se décompose en plusieurs parties : 
-- Réalisation d'un plan détaillé sous visio.
-- Réalisation d'une notice technique sur la mise en place des vlan.
-- Réalisation d'une notice technique sur la sauvegarde externe des configurations switchs et routers.
-- Réalisation d'un document récapitulatif sur les GPO utilisées, des scripts utilisés et des configurations particulières réalisées sur les différents services.
-
-
 Je me suis occupé de la partie sauvegarde des configurations des switchs et routers. La mise en place d'un __serveur tftp__ ( fait par thomas ) est nécessaire. La sauvegarde des configuratiosn en cours sur le matériel est maintenant automatisé par un script python réalisé par mes soins.
 
 &nbsp;
