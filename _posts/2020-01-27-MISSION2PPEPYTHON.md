@@ -7,7 +7,7 @@ Thomas a proposé l'idée de créer un script permettant d'automatiser la sauveg
 
 ```
 #!/usr/bin/env python3
-# -- coding: utf-8 --
+# -*- coding: utf-8 -*-
 
 from netmiko import ConnectHandler
 
