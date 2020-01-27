@@ -57,7 +57,7 @@ Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la
 <br/>
 <br/>
 <br/>
-<h2>Compétences acquises chez IBM :</h2>
+<h2>Compétences acquises pendant le PPE :</h2>
 <hr />
 
 <br />
@@ -66,6 +66,7 @@ Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la
 <span><strong>▪ [Mission 2 : Mise en place d'un domaine et découpage du réseau]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPE %})</strong></span>
 
 Cette mission se décompose en plusieurs parties : 
+
 - Réalisation d'un plan détaillé sous visio.
 - Réalisation d'une notice technique sur la mise en place des vlan.
 - Réalisation d'une notice technique sur la sauvegarde externe des configurations switchs et routers.
