@@ -5,7 +5,7 @@ permalink: /Compétences/
 ---
 
 Compétences acquises ches IBM :
----
+<hr />
 
 <span><strong>▪ [Mission 1 : Mise en place d'une CGI sous AIX 7.2 sur un serveur de test P7]({{ site.baseurl }}{% post_url 2019-12-13-MISSION1 %})</strong></span>
 
