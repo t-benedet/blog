@@ -76,7 +76,7 @@ Cette mission se décompose en plusieurs parties :
 &nbsp;
 
 
-<span><strong>▪ [Mission 3 : Haute disponibilité de l'infrastrucure]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
+<span><strong>▪ [Mission 3 : Haute disponibilité de l'infrastrucure]({{ site.baseurl }}{% post_url 2020-01-27-MISSION3PPE %})</strong></span>
 
 Cette mission se décompose en plusieurs parties : 
 
