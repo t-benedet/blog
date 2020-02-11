@@ -78,8 +78,22 @@ Cette mission se décompose en plusieurs parties :
 
 <span><strong>▪ [Mission 3 : Haute disponibilité de l'infrastrucure]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
 
-Plusieurs missions :
+Cette mission se décompose en plusieurs parties : 
 
 - Réalisation d'un schéma du réseau.
 - Réalisation d'un plan d'adressage IP.
 - Réalisation d'un plan de répartition des ports.
+
+
+
+&nbsp;
+
+
+<span><strong>▪ [Mission 4 : Mise en producution clusterisée d'une application web ]({{ site.baseurl }}{% post_url 2020-02-10-MISSION4PPE %})</strong></span>
+
+
+Cette mission se décompose en plusieurs parties : 
+
+- Mise en place redondance WEB avec site web, GLPI et base de données.
+- Proposer une politique de sauvegarde.
+- Mise en place de scripts de sauvegarde.
