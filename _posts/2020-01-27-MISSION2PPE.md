@@ -34,7 +34,7 @@ Je me suis occupé de la partie sauvegarde des configurations des switchs et rou
 | Activité | Compétences | 
 |----------|-------------|
 | A3.3.4 - Automatisation des tâches d’administration | [C3.3.4.1 Repérer les tâches d’administration à automatiser.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) 
-|| [C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) 
+|| [C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPEPYTHON %}) 
 
 
 
