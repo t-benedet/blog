@@ -31,8 +31,6 @@ Je me suis occupé de la partie sauvegarde des configurations des switchs et rou
 
 <span style="color:#0366d6"><strong>P3 - Conception et maintenance de solutions d'infrastructure | D3.3 - Administration et supervision d'une infrastructure </strong></span>
 
-&nbsp;
-
 | Activité | Compétences | 
 |----------|-------------|
 | A3.3.4 - Automatisation des tâches d’administration | [C3.3.4.1 Repérer les tâches d’administration à automatiser.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) 
