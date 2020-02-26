@@ -13,7 +13,10 @@ Je me suis occupé de la partie sauvegarde des configurations des switchs et rou
 
 | Activité | Compétences | Réalisation |
 |----------|-------------|-------------|
-| A1.1.1 - Analyse du cahier des charges d'un service à produire | [C1.3.1.1 Identifier les éléments à sauvegarder et à journaliser pour assurer la continuité du service et la traçabilité des transactions.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
+| A1.1.1 - Analyse du cahier des charges d'un service à produire | [C1.1.1.1 Recenser et caractériser les contextes
+d’utilisation, les processus et les acteurs sur lesquels le service à produire aura un impact.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
+|| [C1.1.1.2 Identifier les fonctionnalités attendues du service à produire.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
+|| [CC1.1.1.3 Préparer sa participation à une réunion/Rédiger un compte-rendu d’entretien, de réunion.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
 |A1.4.1 - Participation à un projet | [A3.3.4 Automatisation des tâches d’administration]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPEPYTHON %}) | C3.3.4.1 Repérer les tâches d’administration à automatiser | <span style="color:green"><strong>100%</strong></span> |
 |A3.2.1 - Installation et configuration d'éléments d'infrastructure| C3.3.4.2 Concevoir, réaliser et mettre en place une procédure d’automatisation| <span style="color:green"><strong>100%</strong></span> 
 | A3.3.1 - Administration sur site ou à distance des éléments d'un réseau, de serveurs | [C1.3.1.1 Identifier les éléments à sauvegarder et à journaliser pour assurer la continuité du service et la traçabilité des transactions.]({{ site.baseurl }}{% post_url 2020-01-27-MISSION2PPETFTP %}) | <span style="color:green"><strong>100%</strong></span> |
