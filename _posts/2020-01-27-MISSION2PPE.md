@@ -23,7 +23,7 @@ Je me suis occupé de la partie sauvegarde des configurations des switchs et rou
 | Activité | Compétences | 
 |----------|-------------|
 |A1.4.1 - Participation à un projet|[C1.4.1.1 Établir son planning personnel en fonction des exigences et du déroulement du projet]({{ site.baseurl }}{% post_url 2020-02-26-MISSION2PARTIC %})
-||[C1.4.1.2 Rendre compte de son activité]({{ site.baseurl }}{% post_url 2020-02-26-MISSION2PARTIC %}
+||[C1.4.1.2 Rendre compte de son activité]({{ site.baseurl }}{% post_url 2020-02-26-MISSION2PARTIC %})
 
 &nbsp;
 
