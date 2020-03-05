@@ -23,9 +23,9 @@ La deuxième mission reprend l'essentiel de la première mission. Ce qui différ
 &nbsp;
 
 
-<span><strong>▪ [Mission 3 : Création d'un wiki pour le client LOréal]({{ site.baseurl }}{% post_url 2019-12-13-MISSION3 %})</strong></span>
+<span><strong>▪ [Mission 3 : Création d'un wiki pour le client Malakoff-Médéric Humanis]({{ site.baseurl }}{% post_url 2019-12-13-MISSION3 %})</strong></span>
 
-Création d'un wiki LOréal contenant différents guides autour de l'écosystème LOréal.
+Création d'un wiki contenant différents guides autour de l'écosystème Malakoff-Médéric Humanis.
 
 
 &nbsp;
@@ -39,12 +39,11 @@ Cette mission conciste à créer des maquettes sous visio des serveurs P7, P8 et
 &nbsp;
 
 
-<span><strong>▪ [Mission 5 : Remplacement de TSM par AVAMAR et export NFS pour le compte de Malakoff-Médéric Humanis]({{ site.baseurl }}{% post_url 2019-12-13-MISSION5 %})</strong></span>
+<span><strong>▪ [Mission 5 : Augmentation d'un Filesystem sur server AIX]({{ site.baseurl }}{% post_url 2019-12-13-MISSION5 %})</strong></span>
 
-__TSM__ : __T__ ivoli __S__ torage __M__ anager, par IBM.
-__Avamar :__ Par DelL.
 
-Cette mission est un peu problématique puisque certains serveurs de Malakoff Médéric Humanis tournent encore sur la version 5.3 d'AIX ( plus tenu à jour par IBM ). Le but serait de remplacer l'agent TSM ( Tivoli Storage Manager ) par l'agent Avamar. Cependant, le nouvel agent ne fonctionne qu'avec la version 7.X.X d'AIX. Il est donc nécessaire de mettre à jour les OS avant de remplacer l'agent.
+
+Cette mission est assez simple mais représente une des tâches les plus fréquentes. 
 
 
 &nbsp;
