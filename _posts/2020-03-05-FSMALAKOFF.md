@@ -13,5 +13,7 @@ Afin de pouvoir augmenter sa taille, nous avons besoin de connaître son __Volum
 
 Et on remarque que son __VG__ est __SASVG__.
 
-Nous allons donc vérifier la taille disponible sans ce __VG__ grâce à la commande __lsvg + vg__, donc __lsvg SASVG__ :
+Nous allons donc vérifier la taille disponible dans ce __VG__ grâce à la commande __lsvg + vg__, donc __lsvg SASVG__ :
 ![image_3](https://github.com/t-benedet/blog/blob/gh-pages/pictures/FS/image3.png?raw=true)
+
+On remarqu'il reste 68480Mb, soit 68.48GB. Nous pouvons donc piocher dans ces quelques gigas pour augmenter la taille de notre __FS__.
