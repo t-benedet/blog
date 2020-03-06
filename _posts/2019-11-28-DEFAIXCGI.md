@@ -302,7 +302,7 @@ awk ' /'$awk_value'/ {split(FILENAME,a,"-");print a[2]"-"a[3]"-"a[4]","$2","$3}'
 
 Si nous choisissons le filesystem hd4, voilà le graphique :
 
-![image_2](http://image.noelshack.com/fichiers/2019/36/3/1567604524-3880bceb0ab2fe97.jpg)
+![image_2](https://github.com/t-benedet/blog/blob/gh-pages/pictures/GNUP_u103/Gnu4.6_OK.png?raw=true)
 
 Ici nous constatons deux courbes droites. Cela est dû au fait que les valeurs n'ont pas bougées entre le 2019-08-30 et le 2019-09-04.
 
