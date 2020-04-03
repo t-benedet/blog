@@ -53,6 +53,17 @@ Cette mission est assez simple mais représente une des tâches les plus fréque
 
 Pour cette mission, nous avions demandé à l'équipe Storage de supprimer de la data sur le filesystem __/dev/lvisisusrPT1__ pour libérer de l'espace puisque nous avions reçu un ticket indiquant que le fs venait d'atteindre un des palliers de seuil critique en terme d'espace libre. 95% étant le seuil critique, il venait d'atteindre 90% d'espace utililsé. Nous avons donc augmenté l'espace disponible du FS en y intégrant une nouvelle paire de disques.
 
+
+
+&nbsp;
+
+
+<span><strong>▪ [Mission 7 : Restauration Suse sur Pséries ]({{ site.baseurl }}{% post_url 2019-12-13-MISSION6 %})</strong></span>
+
+Actuellement sur Loreal Wise, les Pséries P8 et P9 hébergent une vingtaine de partitions “Suse Linux Enterprise server for SAP Application” en version 12 SP2 (P8) et 12 SP4 (P9).
+Le but est de changer d’infrastructure disques. De nouveaux disques venant de la nouvelle baie ont été mappés et il faut basculer les données ( avec le disque système ) vers les disques cibles.
+
+
 <br/>
 <br/>
 <br/>
